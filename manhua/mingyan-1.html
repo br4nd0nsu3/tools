@@ -1,0 +1,2621 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>《小绿和小蓝》01 人物设定-在线漫画-腾讯动漫官方网站</title>
+    <meta name="keywords" content="小绿和小蓝漫画,小绿和小蓝全集,小绿和小蓝漫画全集,腾讯动漫小绿和小蓝,01 人物设定,动漫,漫画,在线漫画阅读,腾讯动漫官方网站">
+    <meta name="description" content="《小绿和小蓝》《01 人物设定》在线阅读，漫画《小绿和小蓝》简介：本作是个中短篇故事和小段子的合集。故事太多内容太杂，很难一句话概括。新读者可以直接去看122话《回忆》，试试自己喜不喜欢这种类型-v-">
+    <noscript>
+    <meta http-equiv="refresh" content="0; url=/ComicView/showLowExplorerPage">
+    </noscript>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge; chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <script>
+    !function() {
+        var ua = navigator.userAgent,
+            img = new Image(),
+            url = "https://manhua.qpic.cn/manhua_detail/0/02_14_19_8419af2544e4902a6def5e278660ac94.jpg/0";
+        if (ua.indexOf('MSIE 6.0') !== -1) {
+            window.location.href = '/ComicView/showLowExplorerPage';
+        }
+        img.onload = function() {
+            img.onload = null;
+            img = null;
+            window.loadedFirstPic = url;
+        }
+        img.src = url;
+    }();
+    </script>
+    <link rel="stylesheet" type="text/css" href="//ac.gtimg.com/media/css/ac.page.chapter.view_v2.3.7.css?v=20170622">
+</head>
+<body class="view theme-dark">
+    <div class="logo-wrap logo-sub-wrap">
+        <h1><a href="/" id="logo" class="logo" title="腾讯动漫">腾讯动漫</a></h1>
+    </div>
+
+<!--头部导航部分 begin-->
+<div class="nav-wrap" id="navWrapTop">
+    <div class="nav" id="navTop">
+        <div class="logo-wrap">
+                <a href="/" id="logo" class="logo">
+                    腾讯动漫
+                </a>
+        </div>
+
+        <!-- 回到旧版按钮 -->
+        <div class="top-btn-wrap">
+            <a id="fullscreenChange" href="javascript:void(0);" title="全屏">全屏</a>
+            丨
+            <a id="feedbackBtn" href="javascript:void(0);" title="意见反馈">意见反馈</a>
+        </div>
+
+        <!--中间 公告显示-->
+        
+        <!--中间 漫画标题-->
+        <h1 class="title" id="comicTitle">
+            <a href="/" id="home" title="首页">首页</a>
+            <span>></span>
+            <a href="/Comic/comicInfo/id/536332" id="chapter" title="小绿和小蓝">小绿和小蓝</a>
+            <span>></span> <span class="title-comicHeading">01 人物设定</span>
+        </h1>
+
+
+        <!--右边 用户操作和信息-->
+        <div class="user-container">
+            <div class="user-avatar-wrap" id="userAvatarWr">
+                <a class="user-name" id="userName" href="javascript:void(0);" target="_blank">
+                    <img src="//ac.gtimg.com/media/images/blank.gif" alt="用户头像" class="user-avatar" id="userAvatar" />
+                </a>
+                <div class="user-signOut-wrap" style="display:none;" id="userSignOut">
+                    <span class="arrow"></span>
+                    <span class="txt">退出</span>
+                </div>
+            </div>
+            <div class="user-bookshelf ui-right">
+                <a class="user-bookshelf-button" id="bookshelf">
+                    <span class="user-ft-ml user-ft-mr">书架<span class="user-bookshelf-count" id="bookshelfNum" style="display:none;"></span></span>
+                    <span class="bookshelf-ft">+ 1</span>
+                    <!-- <span class="user-ico user-ico-top"></span> -->
+                </a>
+
+                <div class="user-bookshelf-dialog" style="display:none" id="bookshelfContain">
+                    <!--书架列表&登录列表-->
+                    <script type="text/html" id="bookshelfMod">
+                        {{if !state}}
+                        <div class="user-bookshelf-list">
+                            <div class="user-bookshelf-favourite-count">
+                                收藏数：<span id="bookshelfNumIn">{{total}}</span>
+                            </div>
+                            <div class="catalogue" id="bookshelfMain" data-scroll="scrollBookshelf">
+                                <div class="scroll-relative">
+                                    <div class="catalogue-list-wrap scroll-warp" id="bookshelfListWrap">
+                                        <ul class="user-bookshelf-list-ul moved" id="bookshelfList">
+                                            {{each data}} {{if $value.updateFlag}}
+                                            <li>
+                                                <a class="user-bookshelf-favourite-name-warp" href="/Comic/comicInfo/id/{{$value.id}}" target="_blank">
+                                                    <span class="user-bookshelf-favourite-name">{{$value.title}}</span>
+                                                </a>
+                                                <a class="user-bookshelf-favourite-chapter-new-warp" href="/ComicView/index/id/{{$value.id}}/seqno/{{$value.lateSeqNo}}" title="{{$value.lateName}}">
+                                                    <span class="user-bookshelf-favourite-chapter-new">
+                                                        <span class="user-bookshelf-favourite-new">【新】</span>更新至第{{$value.lateSeqNo}}话
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            {{else}}
+                                            <li>
+                                                <a class="user-bookshelf-favourite-name-warp" href="/Comic/comicInfo/id/{{$value.id}}">
+                                                    <span class="user-bookshelf-favourite-name">{{$value.title}}</span>
+                                                </a>
+                                                <a class="user-bookshelf-favourite-chapter-warp" href="/ComicView/index/id/{{$value.id}}/seqno/{{$value.lateSeqNo}}" title="{{$value.lateName}}">
+                                                    <span class="user-bookshelf-favourite-chapter">更新至第{{$value.lateSeqNo}}话</span>
+                                                </a>
+                                            </li>
+                                            {{/if}} {{/each}}
+                                        </ul>
+                                    </div>
+                                    <div id="bookshelfScrollBg" class="scroll-scrollbar">
+                                        <div id="bookshelfScrollBlock" class="scroll-scrollbar-thumb"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-bookshelf-control clearfix">
+                                <div class="ui-right">
+                                    <a href="javascript:void(0)" id="ignoreUpdate" title="标记已读">标记已读</a>
+                                    <span>丨</span>
+                                    <a href="/Home/bookshelf" target="_blank" title="进入书架">进入书架</a>
+                                </div>
+                            </div>
+                        </div>
+                        {{else}}
+
+                        <div class="user-bookshelf-signIn" style="display:block">
+                            <ul>
+                                <li>^_^</li>
+                                <li>亲，登录后查看“书架”</li>
+                                <li>
+                                    <a id="toLogin" class="tologin">点击登录</a>
+                                </li>
+                            </ul>
+                        </div>
+                        {{/if}}
+                        <span class="ico-top">&nbsp;</span>
+                    </script>
+                </div>
+            </div>
+            <a class="user-addFavourites ui-right" id="addFavourites"><span id="favState">收藏</span><span id="favCount">（0）</span></a>
+            <!-- <a class="user-signOut ui-right" id="userSign"></a> -->
+            <a class="user-notice iconfont hidden ui-right" id="noticeControl"><span class="tool_title">关闭公告</span></a>
+        </div>
+    </div>
+</div>
+<!--头部导航部分 end-->
+<iframe src="javascript:void(0);" class="hidden" frameborder="no" scrolling="no" allowTransparency="true" id="checkVipFrame" style="position:fixed;width:100%;height:100%;z-index:1000;top:0;left:0;"></iframe>
+
+<!-- 提示继续阅读部分 begin -->
+<div class="prompt-continue-read" id="promptContinueRead">
+    <script type="text/html" id="promptContinueReadMod">
+    <span>发现阅读历史(￣.￣)+&nbsp;<a href="{{thisUrl}}">{{cTitle}}</a> <a href="{{thisUrlWithData}}">[继续阅读]</a></span>
+    <div class="prompt-continue-mask"></div>
+    <a class="prompt-continue-close" href="javascript:void(0);" id="promptContinueClose">×</a>
+    </script>
+    <script type="text/html" id="promptContinueReadJumpMod">
+    <span>主人，已经自动定位到 {{locationChapter}}</span>
+    <div class="prompt-continue-mask"></div>
+    </script>
+</div>
+<!-- 提示继续阅读部分 end -->
+
+<!-- 顶部提示部分 begin -->
+<div class="prompt-top" id="promptTop" style="display:none;">
+    <span class="prompt-top-mask"></span>
+    <span class="prompt-good-txt">你已赞过了哟</span>
+    <span class="prompt-next-txt">你已进入下一话</span>
+    <span class="prompt-last-txt">你已进入书末页</span>
+</div>
+<!-- 顶部提示部分 end -->
+
+<!--中间主体漫画部分 begin-->
+<div class="main" id="mainView">
+        <ul class="comic-contain" id="comicContain">
+        <script type="text/html" id="comicContainMod">
+            {{each list}}
+            <li style="width:{{aW($value.width)}}px;height:{{aH($value.width,$value.height)}}px;">
+                {{if $index === 0 && firstPicState}}
+                <img src="{{firstPicState}}" data-pid="{{$value.pid}}" data-w="{{$value.width}}" data-h="{{$value.height}}" class="loaded" alt=""/>
+                <div class="for-roast"></div>
+                <div class="own-roast"></div>
+                <div class="adv-roast">
+                    <div class=""><sup></sup><sub></sub></div>
+                </div>
+                <span class="comic-ft">{{'1/' + list.length}}</span>
+                {{else}}
+                <div class="comic-text">
+                    <em>
+                        {{$index + 1 < 10 ? '0' + ($index + 1) : $index + 1}}
+                    </em>
+                    <span class="ico-loading">&nbsp;</span>
+                </div>
+                <img src="//ac.gtimg.com/media/images/pixel.gif" alt="" data-pid="{{$value.pid}}" data-w="{{$value.width}}" data-h="{{$value.height}}"/>
+                <div class="for-roast"></div>
+                <div class="own-roast"></div>
+                <div class="adv-roast">
+                    <div class=""><sup></sup><sub></sub></div>
+                </div>
+                <span class="comic-ft">{{$index + 1 + '/' + list.length}}</span>
+                {{/if}}
+            </li>
+            {{if $index === 0 && top.pic}}
+            <li class="main_ad_top">
+                <a href="{{top.url}}" target="_blank"{{if top.width}} style="width:{{top.width}}px;height:{{top.height}}px"{{/if}}>
+                    <img src="{{top.pic}}" alt="{{top.title}}" id="adTop"/>
+                </a>
+            </li>
+            {{/if}}
+            {{/each}}
+            {{if bottom.url}}
+            <li class="main_ad_bottom">
+                <a href="{{bottom.url}}" target="_blank"{{if bottom.width}} style="width:{{bottom.width}}px;height:{{bottom.height}}px"{{/if}}>
+                    <img src="{{bottom.pic}}" alt="{{bottom.title}}" id="adBottom"/>
+                </a>
+            </li>
+            {{/if}}
+        </script>
+    </ul>
+
+    <div class="main_control clearfix">
+        <ul class="main_control_list clearfix">
+            <li class="main_control_favourite">
+                <a class="main_control_button main_control_button_normal">
+                    <span class="iconfont icon-favourite" id="iconFavourite"></span> <span id="iconFavouritePro">收藏</span>
+                </a>
+            </li>
+
+                        <li class="main_control_month">
+                <a class="main_control_button main_control_button_normal">
+                    <span class="iconfont icon-monthticket" id="iconMonth"></span> <span>投月票</span>
+                </a>
+
+                <dl class="main_control_dialog">
+                    <dt>《小绿和小蓝》</dt>
+                    <dd>
+                        <dl class="main_control_dialog_count_list">
+                            <!--dd class="main_control_dialog_borderRight">
+                                <span class="main_control_dialog_count" id="dataMonthToday">--</span> <span>今日月票</span>
+                            </dd-->
+                            <dd class="main_control_dialog_borderRight">
+                                <span class="main_control_dialog_count" id="dataMonth">--</span> <span>本周月票</span>
+                            </dd>
+                            <dd>
+                                <span class="main_control_dialog_count" id="dataMonthRank">--</span> <span>本周排名</span>
+                            </dd>
+                        </dl>
+                    </dd>
+                    <dd>
+                        <a class="main_control_dialog_button" id="monthTicketShow">我来投月票</a>
+                        <i class="ico-bottom-3c"></i>
+                    </dd>
+                </dl>
+            </li>
+            
+                        <li class="main_control_award">
+                <a class="main_control_button main_control_button_normal">
+                    <span class="iconfont icon-award" id="iconPrize"></span> <span>打赏TA</span>
+                </a>
+
+                <dl class="main_control_dialog">
+                    <dt>《小绿和小蓝》</dt>
+                    <dd>
+                        <dl class="main_control_dialog_count_list">
+                            <dd class="main_control_dialog_borderRight">
+                                <span class="main_control_dialog_count" id="highPrize">--</span> <span>最高受赏(点券)</span>
+                            </dd>
+                            <dd class="main_control_dialog_borderRight">
+                                <span class="main_control_dialog_count" id="totalPrize">--</span> <span>共被打赏(次)</span>
+                            </dd>
+                            <dd>
+                                <span class="main_control_dialog_count" id="rankPrize">--</span> <span>本站排名</span>
+                                <i class="ico-bottom-3c"></i>
+                            </dd>
+                        </dl>
+                    </dd>
+                    <dd>
+                        <a class="main_control_dialog_button" id="rewardShow">我来打赏</a>
+                    </dd>
+                </dl>
+            </li>
+                    </ul>
+        <ul class="clearfix ctrl-list" id="ctrl_list">
+                        <li class="qrcode-item clearfix" id="qrcode_item">
+                <div class="qrcode-item-line"></div>
+                <div class="qrcode-block"></div>
+                <div id="qrcode"></div>
+                <div class="pp">
+                    <p class="pp-title">用微信小程序看漫画</p>
+                    <p class="pp-desc">主人，快用微信扫一扫继续阅读后面的章节</p>
+                </div>
+            </li>
+                        <li class="next-item clearfix" id="next_item">
+                                <a style="" id="mainControlNext" class="main_control_next" href="/ComicView/index/id/536332/cid/17?fromPrev=1">点击进入下一话<span class="iconfont icon-next"></span>
+            </a>
+                <span class="main_control_point">主人，发现新彩蛋！(↑ ↓)快速翻页，（← →）切换章节，（Ctrl+滚轮操作）缩放漫画，（F11）全屏洁净阅读，和鼠标说拜拜！！</span>
+        </div>
+    </div>
+<!--中间主体漫画部分 end-->
+
+<!--吐槽模版 start-->
+<script type="text/html" id="roastMod">
+{{each list}}
+    <p style="left:{{$value.x}}%;top:{{$value.y}}%;"{{if +$value.fc}} class="color-{{$value.fc}}"{{/if}} data-roast-hide="1" data-roast-id="{{$value.roastId}}" data-roast-seq="{{$value.sequence}}"><span></span>{{$value.content}}{{if $value.good > 0}}<i>{{if $value.good >= 10000}}{{($value.good - $value.good % 10000) / 10000}}万{{else}}{{$value.good}}{{/if}}</i>{{/if}}<b style="display:none;"></b></p>
+{{/each}}
+</script>
+<script type="text/html" id="roastModForDm">
+{{each list}}
+    <p style="left:{{width}}px;top:{{random[$index] * 45 + 50}}px;" class="{{if +$value.fc}}color-{{$value.fc}}{{/if}}" data-roast-id="{{$value.roastId}}" data-roast-seq="{{$value.sequence}}">{{$value.content}}{{if $value.good > 0}}<span>{{if $value.good >= 10000}}{{($value.good - $value.good % 10000) / 10000}}万{{else}}{{$value.good}}{{/if}}</span>{{/if}}</p>
+{{/each}}
+</script>
+<script type="text/html" id="roastChangeMod">
+{{each list}}
+    <p style="left:{{$value.x}}%;top:{{$value.y}}%;opacity:1;filter:alpha(opacity=100)"{{if +$value.fc}} class="color-{{$value.fc}}"{{/if}} data-roast-id="{{$value.roastId}}" data-roast-seq="{{$value.sequence}}"><span></span>{{$value.content}}{{if $value.good > 0}}<span>{{if $value.good >= 10000}}{{($value.good - $value.good % 10000) / 10000}}万{{else}}{{$value.good}}{{/if}}</span>{{/if}}<b style="display:none;"></b></p>
+{{/each}}
+</script>
+<!--吐槽模版 end-->
+
+<!--猜你喜欢 begin-->
+<!--普通部分 start-->
+
+<div class="recommend hidden has-left" id="recommend" data-scroll="scrollRecommand">
+    <a class="recommend_close" id="recommendFadeOut">
+        <span class="ui-left">猜你喜欢</span> <span class="iconfont icon-arrow-top"></span>
+    </a>
+    <div class="scroll-relative">
+        <div id="recommendListWrap" class="scroll-warp">
+            <ul class="recommend_list moved" id="recommendList">
+                
+                                                <li>
+                    <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/635444?_via=pc.newview.comleft1" target="_blank">
+                        <img src="https://manhua.qpic.cn/vertical/0/25_10_10_cbdc33aabcda76c4238b652ba9976eba_1532484633679.jpg/420" alt="我和狐妖有个约会" data-pvg="0"/>
+                    </a>
+                    <div class="recommend-info-container">
+                        <dl class="recommend-info">
+                            <dd class="recommend-info-title clearfix">
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/635444?_via=pc.newview.comleft1" target="_blank" class="ui-left" title="我和狐妖有个约会">我和狐妖有个约会</a>
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/635444?_via=pc.newview.comleft1" target="_blank" class="recommend-info-more" title="了解详情">了解详情</a>
+                            </dd>
+                            <dd class="recommend-info-type">
+                                                                <a href="/Comic/index/theme/8" target="_blank" title="校园">校园</a>
+                                                            </dd>
+                            <dd>
+                                <span>评分：</span>
+                                <span class="recommend-info-fraction">8.6</span>
+                                <span>(148人评价)</span>
+                            </dd>
+                            <dd>
+                                <p>少年陈风娇一出生便天地异象，经常遭阴气袭身，但每次都被实为狐妖的女主胡...</p>
+                            </dd>
+                        </dl>
+                    </div>
+                </li>
+                                                <li>
+                    <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/635680?_via=pc.newview.comleft2" target="_blank">
+                        <img src="https://manhua.qpic.cn/vertical/0/02_10_35_c705bfe08a2423fd6dbc8ff83e7b4ac2_1533177342115.jpg/420" alt="一剑倾心" data-pvg="1"/>
+                    </a>
+                    <div class="recommend-info-container">
+                        <dl class="recommend-info">
+                            <dd class="recommend-info-title clearfix">
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/635680?_via=pc.newview.comleft2" target="_blank" class="ui-left" title="一剑倾心">一剑倾心</a>
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/635680?_via=pc.newview.comleft2" target="_blank" class="recommend-info-more" title="了解详情">了解详情</a>
+                            </dd>
+                            <dd class="recommend-info-type">
+                                                                <a href="/Comic/index/theme/38" target="_blank" title="复仇">复仇</a>
+                                                                <a href="/Comic/index/theme/49" target="_blank" title="古风">古风</a>
+                                                                <a href="/Comic/index/theme/15" target="_blank" title="恋爱">恋爱</a>
+                                                            </dd>
+                            <dd>
+                                <span>评分：</span>
+                                <span class="recommend-info-fraction">9.5</span>
+                                <span>(139人评价)</span>
+                            </dd>
+                            <dd>
+                                <p>御龙门少主年17继承门主之位，江湖恩怨再起。江湖头号大盗红衣大盗无意间...</p>
+                            </dd>
+                        </dl>
+                    </div>
+                </li>
+                                                <li>
+                    <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/635225?_via=pc.newview.comleft3" target="_blank">
+                        <img src="https://manhua.qpic.cn/vertical/0/16_18_37_0af11f6e9fb0c501f364d216d1e63e4f_1531737430591.jpg/420" alt="打野之王" data-pvg="2"/>
+                    </a>
+                    <div class="recommend-info-container">
+                        <dl class="recommend-info">
+                            <dd class="recommend-info-title clearfix">
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/635225?_via=pc.newview.comleft3" target="_blank" class="ui-left" title="打野之王">打野之王</a>
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/635225?_via=pc.newview.comleft3" target="_blank" class="recommend-info-more" title="了解详情">了解详情</a>
+                            </dd>
+                            <dd class="recommend-info-type">
+                                                                <a href="/Comic/index/theme/3" target="_blank" title="冒险">冒险</a>
+                                                                <a href="/Comic/index/theme/2" target="_blank" title="热血">热血</a>
+                                                                <a href="/Comic/index/theme/22" target="_blank" title="竞技">竞技</a>
+                                                            </dd>
+                            <dd>
+                                <span>评分：</span>
+                                <span class="recommend-info-fraction">7.2</span>
+                                <span>(121人评价)</span>
+                            </dd>
+                            <dd>
+                                <p>【每周三，周六更新。】公元6069年，大气污染愈发严重浊气横行，人类躲...</p>
+                            </dd>
+                        </dl>
+                    </div>
+                </li>
+                                                <li>
+                    <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/636135?_via=pc.newview.comleft4" target="_blank">
+                        <img src="https://manhua.qpic.cn/vertical/0/19_13_09_9853459ba648baecfa78ac3519186799_1534655380585.jpg/420" alt="救命！我变成idol了" data-pvg="3"/>
+                    </a>
+                    <div class="recommend-info-container">
+                        <dl class="recommend-info">
+                            <dd class="recommend-info-title clearfix">
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/636135?_via=pc.newview.comleft4" target="_blank" class="ui-left" title="救命！我变成idol了">救命！我变成idol了</a>
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/636135?_via=pc.newview.comleft4" target="_blank" class="recommend-info-more" title="了解详情">了解详情</a>
+                            </dd>
+                            <dd class="recommend-info-type">
+                                                                <a href="/Comic/index/theme/14" target="_blank" title="都市">都市</a>
+                                                                <a href="/Comic/index/theme/15" target="_blank" title="恋爱">恋爱</a>
+                                                                <a href="/Comic/index/theme/55" target="_blank" title="浪漫">浪漫</a>
+                                                            </dd>
+                            <dd>
+                                <span>评分：</span>
+                                <span class="recommend-info-fraction">9.0</span>
+                                <span>(70人评价)</span>
+                            </dd>
+                            <dd>
+                                <p>邋里邋遢的肥宅女主与励志成为顶尖idol，但徘徊在十八线边缘的小咖男主...</p>
+                            </dd>
+                        </dl>
+                    </div>
+                </li>
+                                                <li>
+                    <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/636193?_via=pc.newview.comleft5" target="_blank">
+                        <img src="https://manhua.qpic.cn/vertical/0/21_14_09_476cc989c09872d4c7150662e2e19a06_1534831773186.jpg/420" alt="悠然见阑珊" data-pvg="4"/>
+                    </a>
+                    <div class="recommend-info-container">
+                        <dl class="recommend-info">
+                            <dd class="recommend-info-title clearfix">
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/636193?_via=pc.newview.comleft5" target="_blank" class="ui-left" title="悠然见阑珊">悠然见阑珊</a>
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/636193?_via=pc.newview.comleft5" target="_blank" class="recommend-info-more" title="了解详情">了解详情</a>
+                            </dd>
+                            <dd class="recommend-info-type">
+                                                                <a href="/Comic/index/theme/15" target="_blank" title="恋爱">恋爱</a>
+                                                                <a href="/Comic/index/theme/3" target="_blank" title="冒险">冒险</a>
+                                                            </dd>
+                            <dd>
+                                <span>评分：</span>
+                                <span class="recommend-info-fraction">9.2</span>
+                                <span>(111人评价)</span>
+                            </dd>
+                            <dd>
+                                <p>女法医季悠然某日相亲回家途中被犯罪嫌疑人寻仇刺杀，穿越到民国时期一个女...</p>
+                            </dd>
+                        </dl>
+                    </div>
+                </li>
+                                                <li>
+                    <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/634281?_via=pc.newview.comleft6" target="_blank">
+                        <img src="https://manhua.qpic.cn/vertical/0/10_03_26_39ac3a39554d0c93f4fa132fcda0d88e_1528572380015.jpg/420" alt="本王不愁嫁" data-pvg="5"/>
+                    </a>
+                    <div class="recommend-info-container">
+                        <dl class="recommend-info">
+                            <dd class="recommend-info-title clearfix">
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/634281?_via=pc.newview.comleft6" target="_blank" class="ui-left" title="本王不愁嫁">本王不愁嫁</a>
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/634281?_via=pc.newview.comleft6" target="_blank" class="recommend-info-more" title="了解详情">了解详情</a>
+                            </dd>
+                            <dd class="recommend-info-type">
+                                                                <a href="/Comic/index/theme/49" target="_blank" title="古风">古风</a>
+                                                                <a href="/Comic/index/theme/15" target="_blank" title="恋爱">恋爱</a>
+                                                                <a href="/Comic/index/theme/32" target="_blank" title="虐心">虐心</a>
+                                                            </dd>
+                            <dd>
+                                <span>评分：</span>
+                                <span class="recommend-info-fraction">9.3</span>
+                                <span>(296人评价)</span>
+                            </dd>
+                            <dd>
+                                <p>【每周三更新】女扮男装大将军推倒官奴出身帅管家，温馨治愈。生于边疆长于...</p>
+                            </dd>
+                        </dl>
+                    </div>
+                </li>
+                                                <li>
+                    <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/634715?_via=pc.newview.comleft7" target="_blank">
+                        <img src="https://manhua.qpic.cn/vertical/0/27_20_20_97ae515f5ca9b330be521667bc9ba0b8_1530102010525.jpg/420" alt="医统天下" data-pvg="6"/>
+                    </a>
+                    <div class="recommend-info-container">
+                        <dl class="recommend-info">
+                            <dd class="recommend-info-title clearfix">
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/634715?_via=pc.newview.comleft7" target="_blank" class="ui-left" title="医统天下">医统天下</a>
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/634715?_via=pc.newview.comleft7" target="_blank" class="recommend-info-more" title="了解详情">了解详情</a>
+                            </dd>
+                            <dd class="recommend-info-type">
+                                                                <a href="/Comic/index/theme/3" target="_blank" title="冒险">冒险</a>
+                                                                <a href="/Comic/index/theme/2" target="_blank" title="热血">热血</a>
+                                                                <a href="/Comic/index/theme/7" target="_blank" title="玄幻">玄幻</a>
+                                                            </dd>
+                            <dd>
+                                <span>评分：</span>
+                                <span class="recommend-info-fraction">9.4</span>
+                                <span>(273人评价)</span>
+                            </dd>
+                            <dd>
+                                <p>世人都嘲笑医生弱小低贱，那我便要成为这个世界未来最强大的医生！医统天下...</p>
+                            </dd>
+                        </dl>
+                    </div>
+                </li>
+                                                <li>
+                    <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/635995?_via=pc.newview.comleft8" target="_blank">
+                        <img src="https://manhua.qpic.cn/vertical/0/14_00_35_906981e2521539fe5cf45d014812a4e0_1534178111172.jpg/420" alt="妖种" data-pvg="7"/>
+                    </a>
+                    <div class="recommend-info-container">
+                        <dl class="recommend-info">
+                            <dd class="recommend-info-title clearfix">
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/635995?_via=pc.newview.comleft8" target="_blank" class="ui-left" title="妖种">妖种</a>
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/635995?_via=pc.newview.comleft8" target="_blank" class="recommend-info-more" title="了解详情">了解详情</a>
+                            </dd>
+                            <dd class="recommend-info-type">
+                                                                <a href="/Comic/index/theme/2" target="_blank" title="热血">热血</a>
+                                                                <a href="/Comic/index/theme/3" target="_blank" title="冒险">冒险</a>
+                                                            </dd>
+                            <dd>
+                                <span>评分：</span>
+                                <span class="recommend-info-fraction">9.3</span>
+                                <span>(121人评价)</span>
+                            </dd>
+                            <dd>
+                                <p>陆连生在网吧打游戏时，因被杀人犯劫持，觉醒了名为“妖种”的神秘异能。然...</p>
+                            </dd>
+                        </dl>
+                    </div>
+                </li>
+                                                <li>
+                    <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/626359?_via=pc.newview.comleft9" target="_blank">
+                        <img src="https://manhua.qpic.cn/vertical/0/04_14_46_240485adce4154624caa98ff9d44d7b1_1504507588534.jpg/420" alt="坐在恶魔身边" data-pvg="8"/>
+                    </a>
+                    <div class="recommend-info-container">
+                        <dl class="recommend-info">
+                            <dd class="recommend-info-title clearfix">
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/626359?_via=pc.newview.comleft9" target="_blank" class="ui-left" title="坐在恶魔身边">坐在恶魔身边</a>
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/626359?_via=pc.newview.comleft9" target="_blank" class="recommend-info-more" title="了解详情">了解详情</a>
+                            </dd>
+                            <dd class="recommend-info-type">
+                                                                <a href="/Comic/index/theme/15" target="_blank" title="恋爱">恋爱</a>
+                                                                <a href="/Comic/index/theme/55" target="_blank" title="浪漫">浪漫</a>
+                                                                <a href="/Comic/index/theme/8" target="_blank" title="校园">校园</a>
+                                                            </dd>
+                            <dd>
+                                <span>评分：</span>
+                                <span class="recommend-info-fraction">9.4</span>
+                                <span>(3845人评价)</span>
+                            </dd>
+                            <dd>
+                                <p>【周一、周四更新】倔强少女张斐斐与高冷不良头目傅奕帆坐在一起做同桌？？...</p>
+                            </dd>
+                        </dl>
+                    </div>
+                </li>
+                                                <li>
+                    <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/636058?_via=pc.newview.comleft10" target="_blank">
+                        <img src="https://manhua.qpic.cn/vertical/0/15_20_08_4aed34682ab097cc0c2333ffa1adc58e_1534334887561.jpg/420" alt="心有灵犀" data-pvg="9"/>
+                    </a>
+                    <div class="recommend-info-container">
+                        <dl class="recommend-info">
+                            <dd class="recommend-info-title clearfix">
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/636058?_via=pc.newview.comleft10" target="_blank" class="ui-left" title="心有灵犀">心有灵犀</a>
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/636058?_via=pc.newview.comleft10" target="_blank" class="recommend-info-more" title="了解详情">了解详情</a>
+                            </dd>
+                            <dd class="recommend-info-type">
+                                                                <a href="/Comic/index/theme/8" target="_blank" title="校园">校园</a>
+                                                                <a href="/Comic/index/theme/15" target="_blank" title="恋爱">恋爱</a>
+                                                                <a href="/Comic/index/theme/44" target="_blank" title="爆笑">爆笑</a>
+                                                            </dd>
+                            <dd>
+                                <span>评分：</span>
+                                <span class="recommend-info-fraction">9.5</span>
+                                <span>(115人评价)</span>
+                            </dd>
+                            <dd>
+                                <p>【每周五更新 新作看起来】
+好不容易大学毕业，竟然穿越回高中！一朝回...</p>
+                            </dd>
+                        </dl>
+                    </div>
+                </li>
+                                                <li>
+                    <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/635296?_via=pc.newview.comleft11" target="_blank">
+                        <img src="https://manhua.qpic.cn/vertical/0/18_21_13_fcaf6631cff6b7429f96fab675a8f98e_1531919584897.gif/420" alt="龙魂特工" data-pvg="10"/>
+                    </a>
+                    <div class="recommend-info-container">
+                        <dl class="recommend-info">
+                            <dd class="recommend-info-title clearfix">
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/635296?_via=pc.newview.comleft11" target="_blank" class="ui-left" title="龙魂特工">龙魂特工</a>
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/635296?_via=pc.newview.comleft11" target="_blank" class="recommend-info-more" title="了解详情">了解详情</a>
+                            </dd>
+                            <dd class="recommend-info-type">
+                                                                <a href="/Comic/index/theme/14" target="_blank" title="都市">都市</a>
+                                                                <a href="/Comic/index/theme/8" target="_blank" title="校园">校园</a>
+                                                            </dd>
+                            <dd>
+                                <span>评分：</span>
+                                <span class="recommend-info-fraction">9.4</span>
+                                <span>(171人评价)</span>
+                            </dd>
+                            <dd>
+                                <p>（每周四更新）【作者QQ：2678938742】他是超级特工，也是黑暗...</p>
+                            </dd>
+                        </dl>
+                    </div>
+                </li>
+                                                <li>
+                    <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/547873?_via=pc.newview.comleft12" target="_blank">
+                        <img src="https://manhua.qpic.cn/vertical/0/17_17_16_f937c7cd31f9e8b2b7dd784afb6cacfd.jpg/420" alt="王爷不要啊" data-pvg="11"/>
+                    </a>
+                    <div class="recommend-info-container">
+                        <dl class="recommend-info">
+                            <dd class="recommend-info-title clearfix">
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/547873?_via=pc.newview.comleft12" target="_blank" class="ui-left" title="王爷不要啊">王爷不要啊</a>
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/547873?_via=pc.newview.comleft12" target="_blank" class="recommend-info-more" title="了解详情">了解详情</a>
+                            </dd>
+                            <dd class="recommend-info-type">
+                                                                <a href="/Comic/index/theme/49" target="_blank" title="古风">古风</a>
+                                                                <a href="/Comic/index/theme/25" target="_blank" title="治愈">治愈</a>
+                                                                <a href="/Comic/index/theme/36" target="_blank" title="唯美">唯美</a>
+                                                            </dd>
+                            <dd>
+                                <span>评分：</span>
+                                <span class="recommend-info-fraction">9.4</span>
+                                <span>(6250人评价)</span>
+                            </dd>
+                            <dd>
+                                <p>背负着守护人民长久和平心愿的回纥公主嫁入长安啦，要提高智商水平完成使命...</p>
+                            </dd>
+                        </dl>
+                    </div>
+                </li>
+                                                <li>
+                    <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/525099?_via=pc.newview.comleft13" target="_blank">
+                        <img src="https://manhua.qpic.cn/vertical/0/28_15_05_8370b94c097fae76e2b52f0a71f69118_1527491145427.jpg/420" alt="恶偶 (天才玩偶)" data-pvg="12"/>
+                    </a>
+                    <div class="recommend-info-container">
+                        <dl class="recommend-info">
+                            <dd class="recommend-info-title clearfix">
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/525099?_via=pc.newview.comleft13" target="_blank" class="ui-left" title="恶偶 (天才玩偶)">恶偶 (天才玩偶)</a>
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/525099?_via=pc.newview.comleft13" target="_blank" class="recommend-info-more" title="了解详情">了解详情</a>
+                            </dd>
+                            <dd class="recommend-info-type">
+                                                                <a href="/Comic/index/theme/7" target="_blank" title="玄幻">玄幻</a>
+                                                                <a href="/Comic/index/theme/32" target="_blank" title="虐心">虐心</a>
+                                                                <a href="/Comic/index/theme/10" target="_blank" title="推理">推理</a>
+                                                            </dd>
+                            <dd>
+                                <span>评分：</span>
+                                <span class="recommend-info-fraction">9.4</span>
+                                <span>(2881人评价)</span>
+                            </dd>
+                            <dd>
+                                <p>史上神秘失踪的短命天才，成为成功者们最阴晦的秘密，假他人之命图我之福祇...</p>
+                            </dd>
+                        </dl>
+                    </div>
+                </li>
+                                                <li>
+                    <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/622180?_via=pc.newview.comleft14" target="_blank">
+                        <img src="https://manhua.qpic.cn/vertical/0/03_00_04_5a97528722f6b47451679b0e90824b68_1533225862925.jpg/420" alt="无人之境" data-pvg="13"/>
+                    </a>
+                    <div class="recommend-info-container">
+                        <dl class="recommend-info">
+                            <dd class="recommend-info-title clearfix">
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/622180?_via=pc.newview.comleft14" target="_blank" class="ui-left" title="无人之境">无人之境</a>
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/622180?_via=pc.newview.comleft14" target="_blank" class="recommend-info-more" title="了解详情">了解详情</a>
+                            </dd>
+                            <dd class="recommend-info-type">
+                                                                <a href="/Comic/index/theme/4" target="_blank" title="恐怖">恐怖</a>
+                                                                <a href="/Comic/index/theme/9" target="_blank" title="悬疑">悬疑</a>
+                                                                <a href="/Comic/index/theme/37" target="_blank" title="震撼">震撼</a>
+                                                            </dd>
+                            <dd>
+                                <span>评分：</span>
+                                <span class="recommend-info-fraction">9.6</span>
+                                <span>(1520人评价)</span>
+                            </dd>
+                            <dd>
+                                <p>瘦长鬼影、天蛾人、猪头屠夫、塞西尔酒店、
+裂口女、厕所的花子、不存在...</p>
+                            </dd>
+                        </dl>
+                    </div>
+                </li>
+                                                <li>
+                    <a class="recommend-cover" href="http://ac.qq.com/Comic/comicInfo/id/629033?_via=pc.newview.comleft15" target="_blank">
+                        <img src="https://manhua.qpic.cn/vertical/0/30_19_55_19b7d4b20ff5298b99f59618f06698c3_1517313315102.jpg/420" alt="绝世炼丹师" data-pvg="14"/>
+                    </a>
+                    <div class="recommend-info-container">
+                        <dl class="recommend-info">
+                            <dd class="recommend-info-title clearfix">
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/629033?_via=pc.newview.comleft15" target="_blank" class="ui-left" title="绝世炼丹师">绝世炼丹师</a>
+                                <a href="http://ac.qq.com/Comic/comicInfo/id/629033?_via=pc.newview.comleft15" target="_blank" class="recommend-info-more" title="了解详情">了解详情</a>
+                            </dd>
+                            <dd class="recommend-info-type">
+                                                                <a href="/Comic/index/theme/15" target="_blank" title="恋爱">恋爱</a>
+                                                                <a href="/Comic/index/theme/49" target="_blank" title="古风">古风</a>
+                                                                <a href="/Comic/index/theme/12" target="_blank" title="穿越">穿越</a>
+                                                            </dd>
+                            <dd>
+                                <span>评分：</span>
+                                <span class="recommend-info-fraction">9.2</span>
+                                <span>(2380人评价)</span>
+                            </dd>
+                            <dd>
+                                <p>她是最强修仙者，穿越异界，上有家族欺压迫害，下有渣男未婚夫凌辱践踏…想...</p>
+                            </dd>
+                        </dl>
+                    </div>
+                </li>
+                            </ul>
+        </div>
+        <div id="recommendScrollBg" class="scroll-scrollbar">
+            <div id="recommendScrollBlock" class="scroll-scrollbar-thumb"></div>
+        </div>
+    </div>
+</div>
+
+
+<!--普通部分 end-->
+<!--收起状态下的推荐列表-->
+<div class="recommend_stack hidden" id="recommendStack">
+    <ul class="recommend_stack_all">
+                <li class="recommend_stack_cover recommend_stack_li1">
+            <img src="https://manhua.qpic.cn/vertical/0/25_10_10_cbdc33aabcda76c4238b652ba9976eba_1532484633679.jpg/420" alt="我和狐妖有个约会"/>
+        </li>
+                <li class="recommend_stack_cover recommend_stack_li2">
+            <img src="https://manhua.qpic.cn/vertical/0/02_10_35_c705bfe08a2423fd6dbc8ff83e7b4ac2_1533177342115.jpg/420" alt="一剑倾心"/>
+        </li>
+                        <li class="recommend_stack_cover recommend_stack_li3">
+            <img src="https://manhua.qpic.cn/vertical/0/03_00_04_5a97528722f6b47451679b0e90824b68_1533225862925.jpg/420" alt="无人之境"/>
+        </li>
+                <li class="recommend_stack_cover recommend_stack_li4">
+            <img src="https://manhua.qpic.cn/vertical/0/30_19_55_19b7d4b20ff5298b99f59618f06698c3_1517313315102.jpg/420" alt="绝世炼丹师"/>
+        </li>
+            </ul>
+    <a class="recommend_open" id="recommendFadeIn">
+        <span class="ui-left">猜你喜欢</span> <span class="iconfont icon-arrow-bottom"></span>
+    </a>
+</div>
+<!--猜你喜欢 end-->
+
+<!--下方工具栏部分 begin-->
+<div class="tool-wrap" id="toolWrapBottom">
+    <div class="tool" id="toolBottom">
+        <!-- 对页分页 -->
+                <ul class="tool_icon_list tool_icon_list_sub">
+            <li class="tool_icon_list_li tool_icon_last_li">
+                <a>
+                    <span class="iconfont icon-tools"></span> <span class="tool_title">退出全屏</span>
+                </a>
+            </li>
+            <li class="tool_icon_list_li tool_icon_open_li">展开工具栏</li>
+        </ul>
+
+        <ul class="tool_icon_list tool_icon_list_main">
+            <li class="tool_icon_list_li last">
+                <a class="tool_btn_open" id="toolBtn">
+                    <span class="tool_title tool_title_last tool_title_last_open">展开工具栏</span>
+                    <span class="tool_title tool_title_last tool_title_last_close">收起工具栏</span>
+                </a>
+            </li>
+            <li class="tool_icon_list_li">
+                <a id="themeControl">
+                    <span class="tool_icon_themeControl iconfont icon-light">&nbsp;</span> <span class="tool_title tool_title_lamp">开灯</span>
+                </a>
+            </li>
+<!--             <li class="tool_icon_list_li">
+                <a id="fullscreen">
+                    <span class="iconfont icon-fullsrceen"></span> <span class="tool_title"></span>
+                </a>
+            </li> -->
+            <li class="tool_icon_list_li to-cross-page">
+                <a id="crossPage" class="dpage_a">
+                    <span class="iconfont icon-dpage">&nbsp;</span><span class="tool_title">切换至对页阅读</span>
+                </a>
+            </li>
+            <li class="tool_icon_list_li tool_icon_list_chapter">
+                <a class="tool_chapters_button" id="catalogueControl">
+                    <span class="iconfont icon-catalogue">&nbsp;</span> <span class="tool_title">目录</span>
+                    <span class="ico-bottom-3c"></span>
+                </a>
+            </li>
+            <li class="tool_icon_list_li">
+                                <a id="nextChapter" href="/ComicView/index/id/536332/cid/17?fromPrev=1">
+                    <span class="iconfont icon-btnright">&nbsp;</span> <span class="tool_title">下一话</span></a>
+                            </li>
+            <li class="tool_icon_list_li">
+                                <a id="prevChapter" href="javascript:void(0)" onclick="noPrev()"><span class="iconfont icon-btnleft">&nbsp;</span> <span class="tool_title">上一话</span></a>
+                            </li>
+        </ul>
+
+        <!--章节目录列表弹窗 begin-->
+        <div class="tool_chapters_dialog hidden" id="catalogueContain">
+            <div class="tool_chapters_dialog_title_wrap">
+                <h3 class="tool_chapters_dialog_title" id="catalogueSlideDown">
+                    <a>
+                        <span id="catalogueTitle"></span> <span class="user-ico"></span>
+                    </a>
+                </h3>
+            </div>
+            <div class="catalogue" id="catalogue" data-scroll="scrollCatalogue">
+                <div class="scroll-relative scroll-list">
+                    <div class="scroll-warp" id="catalogueListWrap">
+                        <ul class="tool_chapters_list moved" id="catalogueList">
+                                                        <li class="now-reading">
+                                <a href="/ComicView/index/id/536332/cid/1" title="01 人物设定">
+                                    <span class="tool_chapters_list_number">[1]</span>
+                                    <span class="tool_chapters_list_title">01 人物设定</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/17" title="02 心灵鸡汤1">
+                                    <span class="tool_chapters_list_number">[2]</span>
+                                    <span class="tool_chapters_list_title">02 心灵鸡汤1</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/18" title="03 心灵鸡汤2">
+                                    <span class="tool_chapters_list_number">[3]</span>
+                                    <span class="tool_chapters_list_title">03 心灵鸡汤2</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/14" title="04 含蓄的人">
+                                    <span class="tool_chapters_list_number">[4]</span>
+                                    <span class="tool_chapters_list_title">04 含蓄的人</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/19" title="05 忘了">
+                                    <span class="tool_chapters_list_number">[5]</span>
+                                    <span class="tool_chapters_list_title">05 忘了</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/20" title="06 SIRI">
+                                    <span class="tool_chapters_list_number">[6]</span>
+                                    <span class="tool_chapters_list_title">06 SIRI</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/21" title="07 初恋">
+                                    <span class="tool_chapters_list_number">[7]</span>
+                                    <span class="tool_chapters_list_title">07 初恋</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/22" title="08 暗恋和被暗恋">
+                                    <span class="tool_chapters_list_number">[8]</span>
+                                    <span class="tool_chapters_list_title">08 暗恋和被暗恋</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/23" title="09 如果能追上我">
+                                    <span class="tool_chapters_list_number">[9]</span>
+                                    <span class="tool_chapters_list_title">09 如果能追上我</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/24" title="10 中国式让梨">
+                                    <span class="tool_chapters_list_number">[10]</span>
+                                    <span class="tool_chapters_list_title">10 中国式让梨</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/25" title="11 电蚊拍">
+                                    <span class="tool_chapters_list_number">[11]</span>
+                                    <span class="tool_chapters_list_title">11 电蚊拍</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/26" title="12 跳楼">
+                                    <span class="tool_chapters_list_number">[12]</span>
+                                    <span class="tool_chapters_list_title">12 跳楼</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/27" title="13 我赞过的这个世界">
+                                    <span class="tool_chapters_list_number">[13]</span>
+                                    <span class="tool_chapters_list_title">13 我赞过的这个世界</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/28" title="14 新式铠甲">
+                                    <span class="tool_chapters_list_number">[14]</span>
+                                    <span class="tool_chapters_list_title">14 新式铠甲</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/2" title="15 讨厌的东西">
+                                    <span class="tool_chapters_list_number">[15]</span>
+                                    <span class="tool_chapters_list_title">15 讨厌的东西</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/12" title="16 忍很久了">
+                                    <span class="tool_chapters_list_number">[16]</span>
+                                    <span class="tool_chapters_list_title">16 忍很久了</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/13" title="17 傲娇">
+                                    <span class="tool_chapters_list_number">[17]</span>
+                                    <span class="tool_chapters_list_title">17 傲娇</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/29" title="18 死对头">
+                                    <span class="tool_chapters_list_number">[18]</span>
+                                    <span class="tool_chapters_list_title">18 死对头</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/30" title="19 国旗">
+                                    <span class="tool_chapters_list_number">[19]</span>
+                                    <span class="tool_chapters_list_title">19 国旗</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/31" title="20 苹果新地脆">
+                                    <span class="tool_chapters_list_number">[20]</span>
+                                    <span class="tool_chapters_list_title">20 苹果新地脆</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/32" title="21 码魂">
+                                    <span class="tool_chapters_list_number">[21]</span>
+                                    <span class="tool_chapters_list_title">21 码魂</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/15" title="22 愚人节">
+                                    <span class="tool_chapters_list_number">[22]</span>
+                                    <span class="tool_chapters_list_title">22 愚人节</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/16" title="23 愚人节2">
+                                    <span class="tool_chapters_list_number">[23]</span>
+                                    <span class="tool_chapters_list_title">23 愚人节2</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/33" title="24 梦">
+                                    <span class="tool_chapters_list_number">[24]</span>
+                                    <span class="tool_chapters_list_title">24 梦</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/34" title="25 体操动作">
+                                    <span class="tool_chapters_list_number">[25]</span>
+                                    <span class="tool_chapters_list_title">25 体操动作</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/35" title="26 高考圣战日">
+                                    <span class="tool_chapters_list_number">[26]</span>
+                                    <span class="tool_chapters_list_title">26 高考圣战日</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/36" title="27 梦中的世界">
+                                    <span class="tool_chapters_list_number">[27]</span>
+                                    <span class="tool_chapters_list_title">27 梦中的世界</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/37" title="28 画食物">
+                                    <span class="tool_chapters_list_number">[28]</span>
+                                    <span class="tool_chapters_list_title">28 画食物</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/38" title="29 分数等级制">
+                                    <span class="tool_chapters_list_number">[29]</span>
+                                    <span class="tool_chapters_list_title">29 分数等级制</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/39" title="30 可怕的武器">
+                                    <span class="tool_chapters_list_number">[30]</span>
+                                    <span class="tool_chapters_list_title">30 可怕的武器</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/40" title="31 两个优等生">
+                                    <span class="tool_chapters_list_number">[31]</span>
+                                    <span class="tool_chapters_list_title">31 两个优等生</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/41" title="32 早餐时间">
+                                    <span class="tool_chapters_list_number">[32]</span>
+                                    <span class="tool_chapters_list_title">32 早餐时间</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/42" title="33 博大精深的文化">
+                                    <span class="tool_chapters_list_number">[33]</span>
+                                    <span class="tool_chapters_list_title">33 博大精深的文化</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/43" title="34 少年老成">
+                                    <span class="tool_chapters_list_number">[34]</span>
+                                    <span class="tool_chapters_list_title">34 少年老成</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/44" title="35 造字法">
+                                    <span class="tool_chapters_list_number">[35]</span>
+                                    <span class="tool_chapters_list_title">35 造字法</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/45" title="36 夸奖">
+                                    <span class="tool_chapters_list_number">[36]</span>
+                                    <span class="tool_chapters_list_title">36 夸奖</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/46" title="37 告白">
+                                    <span class="tool_chapters_list_number">[37]</span>
+                                    <span class="tool_chapters_list_title">37 告白</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/47" title="38 萤火之森">
+                                    <span class="tool_chapters_list_number">[38]</span>
+                                    <span class="tool_chapters_list_title">38 萤火之森</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/48" title="39 暗恋与点赞">
+                                    <span class="tool_chapters_list_number">[39]</span>
+                                    <span class="tool_chapters_list_title">39 暗恋与点赞</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/49" title="40 美国">
+                                    <span class="tool_chapters_list_number">[40]</span>
+                                    <span class="tool_chapters_list_title">40 美国</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/50" title="41 不会受伤的机器人">
+                                    <span class="tool_chapters_list_number">[41]</span>
+                                    <span class="tool_chapters_list_title">41 不会受伤的机器人</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/51" title="42 毕业时的告白">
+                                    <span class="tool_chapters_list_number">[42]</span>
+                                    <span class="tool_chapters_list_title">42 毕业时的告白</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/52" title="43 民意">
+                                    <span class="tool_chapters_list_number">[43]</span>
+                                    <span class="tool_chapters_list_title">43 民意</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/53" title="44 注册就送">
+                                    <span class="tool_chapters_list_number">[44]</span>
+                                    <span class="tool_chapters_list_title">44 注册就送</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/54" title="45 人类匹配计划">
+                                    <span class="tool_chapters_list_number">[45]</span>
+                                    <span class="tool_chapters_list_title">45 人类匹配计划</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/55" title="46 武">
+                                    <span class="tool_chapters_list_number">[46]</span>
+                                    <span class="tool_chapters_list_title">46 武</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/56" title="47 关注">
+                                    <span class="tool_chapters_list_number">[47]</span>
+                                    <span class="tool_chapters_list_title">47 关注</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/57" title="48 拖延症的治疗">
+                                    <span class="tool_chapters_list_number">[48]</span>
+                                    <span class="tool_chapters_list_title">48 拖延症的治疗</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/58" title="49 隐居">
+                                    <span class="tool_chapters_list_number">[49]</span>
+                                    <span class="tool_chapters_list_title">49 隐居</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/59" title="50 小天使">
+                                    <span class="tool_chapters_list_number">[50]</span>
+                                    <span class="tool_chapters_list_title">50 小天使</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/60" title="51 你一生的大数据">
+                                    <span class="tool_chapters_list_number">[51]</span>
+                                    <span class="tool_chapters_list_title">51 你一生的大数据</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/61" title="52 梦中的你">
+                                    <span class="tool_chapters_list_number">[52]</span>
+                                    <span class="tool_chapters_list_title">52 梦中的你</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/62" title="53 放生">
+                                    <span class="tool_chapters_list_number">[53]</span>
+                                    <span class="tool_chapters_list_title">53 放生</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/63" title="54 愚蠢的动物">
+                                    <span class="tool_chapters_list_number">[54]</span>
+                                    <span class="tool_chapters_list_title">54 愚蠢的动物</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/64" title="55 偶像">
+                                    <span class="tool_chapters_list_number">[55]</span>
+                                    <span class="tool_chapters_list_title">55 偶像</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/65" title="56 屏幕背后">
+                                    <span class="tool_chapters_list_number">[56]</span>
+                                    <span class="tool_chapters_list_title">56 屏幕背后</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/66" title="57 10086">
+                                    <span class="tool_chapters_list_number">[57]</span>
+                                    <span class="tool_chapters_list_title">57 10086</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/67" title="58 上帝视角">
+                                    <span class="tool_chapters_list_number">[58]</span>
+                                    <span class="tool_chapters_list_title">58 上帝视角</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/68" title="59 反驳九法">
+                                    <span class="tool_chapters_list_number">[59]</span>
+                                    <span class="tool_chapters_list_title">59 反驳九法</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/69" title="60 婉拒">
+                                    <span class="tool_chapters_list_number">[60]</span>
+                                    <span class="tool_chapters_list_title">60 婉拒</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/70" title="61 实诚">
+                                    <span class="tool_chapters_list_number">[61]</span>
+                                    <span class="tool_chapters_list_title">61 实诚</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/71" title="62 概率">
+                                    <span class="tool_chapters_list_number">[62]</span>
+                                    <span class="tool_chapters_list_title">62 概率</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/72" title="63 猜1">
+                                    <span class="tool_chapters_list_number">[63]</span>
+                                    <span class="tool_chapters_list_title">63 猜1</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/73" title="64 猜2">
+                                    <span class="tool_chapters_list_number">[64]</span>
+                                    <span class="tool_chapters_list_title">64 猜2</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/74" title="65 猜3">
+                                    <span class="tool_chapters_list_number">[65]</span>
+                                    <span class="tool_chapters_list_title">65 猜3</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/75" title="66 Continue">
+                                    <span class="tool_chapters_list_number">[66]</span>
+                                    <span class="tool_chapters_list_title">66 Continue</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/76" title="67 爱恨">
+                                    <span class="tool_chapters_list_number">[67]</span>
+                                    <span class="tool_chapters_list_title">67 爱恨</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/77" title="68 网瘾">
+                                    <span class="tool_chapters_list_number">[68]</span>
+                                    <span class="tool_chapters_list_title">68 网瘾</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/78" title="69 两种软件">
+                                    <span class="tool_chapters_list_number">[69]</span>
+                                    <span class="tool_chapters_list_title">69 两种软件</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/79" title="70 七夕">
+                                    <span class="tool_chapters_list_number">[70]</span>
+                                    <span class="tool_chapters_list_title">70 七夕</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/80" title="71 所说的和所做的">
+                                    <span class="tool_chapters_list_number">[71]</span>
+                                    <span class="tool_chapters_list_title">71 所说的和所做的</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/81" title="72 一厢情愿">
+                                    <span class="tool_chapters_list_number">[72]</span>
+                                    <span class="tool_chapters_list_title">72 一厢情愿</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/82" title="73 一款音乐游戏">
+                                    <span class="tool_chapters_list_number">[73]</span>
+                                    <span class="tool_chapters_list_title">73 一款音乐游戏</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/83" title="74 谢谢你，再见">
+                                    <span class="tool_chapters_list_number">[74]</span>
+                                    <span class="tool_chapters_list_title">74 谢谢你，再见</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/84" title="75 实力排名">
+                                    <span class="tool_chapters_list_number">[75]</span>
+                                    <span class="tool_chapters_list_title">75 实力排名</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/85" title="76 撞衫">
+                                    <span class="tool_chapters_list_number">[76]</span>
+                                    <span class="tool_chapters_list_title">76 撞衫</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/86" title="77 改变你一生的漫画">
+                                    <span class="tool_chapters_list_number">[77]</span>
+                                    <span class="tool_chapters_list_title">77 改变你一生的漫画</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/87" title="78 求安慰">
+                                    <span class="tool_chapters_list_number">[78]</span>
+                                    <span class="tool_chapters_list_title">78 求安慰</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/88" title="79 E计划（讹计划）">
+                                    <span class="tool_chapters_list_number">[79]</span>
+                                    <span class="tool_chapters_list_title">79 E计划（讹计划）</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/89" title="80 友好">
+                                    <span class="tool_chapters_list_number">[80]</span>
+                                    <span class="tool_chapters_list_title">80 友好</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/90" title="81 流行">
+                                    <span class="tool_chapters_list_number">[81]</span>
+                                    <span class="tool_chapters_list_title">81 流行</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/91" title="82 成为">
+                                    <span class="tool_chapters_list_number">[82]</span>
+                                    <span class="tool_chapters_list_title">82 成为</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/92" title="83 不可说">
+                                    <span class="tool_chapters_list_number">[83]</span>
+                                    <span class="tool_chapters_list_title">83 不可说</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/93" title="84 正义的维护者们">
+                                    <span class="tool_chapters_list_number">[84]</span>
+                                    <span class="tool_chapters_list_title">84 正义的维护者们</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/94" title="85 监督">
+                                    <span class="tool_chapters_list_number">[85]</span>
+                                    <span class="tool_chapters_list_title">85 监督</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/95" title="86 才能">
+                                    <span class="tool_chapters_list_number">[86]</span>
+                                    <span class="tool_chapters_list_title">86 才能</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/96" title="87 死循环">
+                                    <span class="tool_chapters_list_number">[87]</span>
+                                    <span class="tool_chapters_list_title">87 死循环</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/97" title="88 画师日常">
+                                    <span class="tool_chapters_list_number">[88]</span>
+                                    <span class="tool_chapters_list_title">88 画师日常</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/98" title="89 顺边的翅膀">
+                                    <span class="tool_chapters_list_number">[89]</span>
+                                    <span class="tool_chapters_list_title">89 顺边的翅膀</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/99" title="90 苦衷">
+                                    <span class="tool_chapters_list_number">[90]</span>
+                                    <span class="tool_chapters_list_title">90 苦衷</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/100" title="91 小两口">
+                                    <span class="tool_chapters_list_number">[91]</span>
+                                    <span class="tool_chapters_list_title">91 小两口</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/101" title="92 争宠">
+                                    <span class="tool_chapters_list_number">[92]</span>
+                                    <span class="tool_chapters_list_title">92 争宠</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/102" title="93 背包侠">
+                                    <span class="tool_chapters_list_number">[93]</span>
+                                    <span class="tool_chapters_list_title">93 背包侠</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/103" title="94 机器人1-诞生">
+                                    <span class="tool_chapters_list_number">[94]</span>
+                                    <span class="tool_chapters_list_title">94 机器人1-诞生</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/104" title="95 机器人2-乐观">
+                                    <span class="tool_chapters_list_number">[95]</span>
+                                    <span class="tool_chapters_list_title">95 机器人2-乐观</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/105" title="96 数据时代">
+                                    <span class="tool_chapters_list_number">[96]</span>
+                                    <span class="tool_chapters_list_title">96 数据时代</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/106" title="97 小日常">
+                                    <span class="tool_chapters_list_number">[97]</span>
+                                    <span class="tool_chapters_list_title">97 小日常</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/107" title="98 机器人3-可贵的情感">
+                                    <span class="tool_chapters_list_number">[98]</span>
+                                    <span class="tool_chapters_list_title">98 机器人3-可贵的情感</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/108" title="99 秒速5纳米">
+                                    <span class="tool_chapters_list_number">[99]</span>
+                                    <span class="tool_chapters_list_title">99 秒速5纳米</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/109" title="100 机器人4-秘密">
+                                    <span class="tool_chapters_list_number">[100]</span>
+                                    <span class="tool_chapters_list_title">100 机器人4-秘密</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/110" title="101 只说真话的世界">
+                                    <span class="tool_chapters_list_number">[101]</span>
+                                    <span class="tool_chapters_list_title">101 只说真话的世界</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/111" title="102 机器人5-模仿">
+                                    <span class="tool_chapters_list_number">[102]</span>
+                                    <span class="tool_chapters_list_title">102 机器人5-模仿</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/112" title="103 行为与期望">
+                                    <span class="tool_chapters_list_number">[103]</span>
+                                    <span class="tool_chapters_list_title">103 行为与期望</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/113" title="104 愿望">
+                                    <span class="tool_chapters_list_number">[104]</span>
+                                    <span class="tool_chapters_list_title">104 愿望</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/114" title="105 小日常">
+                                    <span class="tool_chapters_list_number">[105]</span>
+                                    <span class="tool_chapters_list_title">105 小日常</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/115" title="106 机器人6-学习">
+                                    <span class="tool_chapters_list_number">[106]</span>
+                                    <span class="tool_chapters_list_title">106 机器人6-学习</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/116" title="107 没有你的世界">
+                                    <span class="tool_chapters_list_number">[107]</span>
+                                    <span class="tool_chapters_list_title">107 没有你的世界</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/117" title="108 捉昆虫">
+                                    <span class="tool_chapters_list_number">[108]</span>
+                                    <span class="tool_chapters_list_title">108 捉昆虫</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/118" title="109 未来">
+                                    <span class="tool_chapters_list_number">[109]</span>
+                                    <span class="tool_chapters_list_title">109 未来</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/119" title="110 好奇心">
+                                    <span class="tool_chapters_list_number">[110]</span>
+                                    <span class="tool_chapters_list_title">110 好奇心</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/120" title="111 一天">
+                                    <span class="tool_chapters_list_number">[111]</span>
+                                    <span class="tool_chapters_list_title">111 一天</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/121" title="112 机器人7-共同语言">
+                                    <span class="tool_chapters_list_number">[112]</span>
+                                    <span class="tool_chapters_list_title">112 机器人7-共同语言</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/122" title="113 机器人8-如果我不在了">
+                                    <span class="tool_chapters_list_number">[113]</span>
+                                    <span class="tool_chapters_list_title">113 机器人8-如果我不在了</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/123" title="114 改变了的世界">
+                                    <span class="tool_chapters_list_number">[114]</span>
+                                    <span class="tool_chapters_list_title">114 改变了的世界</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/124" title="115 欢迎光临星○克">
+                                    <span class="tool_chapters_list_number">[115]</span>
+                                    <span class="tool_chapters_list_title">115 欢迎光临星○克</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/127" title="116 背叛">
+                                    <span class="tool_chapters_list_number">[116]</span>
+                                    <span class="tool_chapters_list_title">116 背叛</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/128" title="117 背叛·小番外">
+                                    <span class="tool_chapters_list_number">[117]</span>
+                                    <span class="tool_chapters_list_title">117 背叛·小番外</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/129" title="118 机器人9-成就">
+                                    <span class="tool_chapters_list_number">[118]</span>
+                                    <span class="tool_chapters_list_title">118 机器人9-成就</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/130" title="119 梦中的约定">
+                                    <span class="tool_chapters_list_number">[119]</span>
+                                    <span class="tool_chapters_list_title">119 梦中的约定</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/131" title="120 画外">
+                                    <span class="tool_chapters_list_number">[120]</span>
+                                    <span class="tool_chapters_list_title">120 画外</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/132" title="几张不是剧情的插画">
+                                    <span class="tool_chapters_list_number">[121]</span>
+                                    <span class="tool_chapters_list_title">几张不是剧情的插画</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/133" title="122 回忆">
+                                    <span class="tool_chapters_list_number">[122]</span>
+                                    <span class="tool_chapters_list_title">122 回忆</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/134" title="123 回忆·拍摄花絮">
+                                    <span class="tool_chapters_list_number">[123]</span>
+                                    <span class="tool_chapters_list_title">123 回忆·拍摄花絮</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/135" title="124 机器人10-作家">
+                                    <span class="tool_chapters_list_number">[124]</span>
+                                    <span class="tool_chapters_list_title">124 机器人10-作家</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/136" title="125 机器人11-共处一室">
+                                    <span class="tool_chapters_list_number">[125]</span>
+                                    <span class="tool_chapters_list_title">125 机器人11-共处一室</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/137" title="126 机器人12-会面">
+                                    <span class="tool_chapters_list_number">[126]</span>
+                                    <span class="tool_chapters_list_title">126 机器人12-会面</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/138" title="127 无限的时间">
+                                    <span class="tool_chapters_list_number">[127]</span>
+                                    <span class="tool_chapters_list_title">127 无限的时间</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/139" title="128 无限的时间·番外">
+                                    <span class="tool_chapters_list_number">[128]</span>
+                                    <span class="tool_chapters_list_title">128 无限的时间·番外</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/140" title="129 无限的时间·拍摄花絮">
+                                    <span class="tool_chapters_list_number">[129]</span>
+                                    <span class="tool_chapters_list_title">129 无限的时间·拍摄花絮</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/141" title="130 剧场版-伯伦希尔的荣耀">
+                                    <span class="tool_chapters_list_number">[130]</span>
+                                    <span class="tool_chapters_list_title">130 剧场版-伯伦希尔的荣耀</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/142" title="131 白衣">
+                                    <span class="tool_chapters_list_number">[131]</span>
+                                    <span class="tool_chapters_list_title">131 白衣</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/143" title="132 机器人13-三原则">
+                                    <span class="tool_chapters_list_number">[132]</span>
+                                    <span class="tool_chapters_list_title">132 机器人13-三原则</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/144" title="133 机器人14-自由意志">
+                                    <span class="tool_chapters_list_number">[133]</span>
+                                    <span class="tool_chapters_list_title">133 机器人14-自由意志</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/145" title="134 抱枕">
+                                    <span class="tool_chapters_list_number">[134]</span>
+                                    <span class="tool_chapters_list_title">134 抱枕</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/146" title="135 机器人15-同理心">
+                                    <span class="tool_chapters_list_number">[135]</span>
+                                    <span class="tool_chapters_list_title">135 机器人15-同理心</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/147" title="136 易碎品">
+                                    <span class="tool_chapters_list_number">[136]</span>
+                                    <span class="tool_chapters_list_title">136 易碎品</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/148" title="137 切花">
+                                    <span class="tool_chapters_list_number">[137]</span>
+                                    <span class="tool_chapters_list_title">137 切花</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/149" title="138 机器人16-猫咖啡">
+                                    <span class="tool_chapters_list_number">[138]</span>
+                                    <span class="tool_chapters_list_title">138 机器人16-猫咖啡</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/150" title="139 剧场版-你不知道的事">
+                                    <span class="tool_chapters_list_number">[139]</span>
+                                    <span class="tool_chapters_list_title">139 剧场版-你不知道的事</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/151" title="140 小绿马克杯">
+                                    <span class="tool_chapters_list_number">[140]</span>
+                                    <span class="tool_chapters_list_title">140 小绿马克杯</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/152" title="141 三分钟">
+                                    <span class="tool_chapters_list_number">[141]</span>
+                                    <span class="tool_chapters_list_title">141 三分钟</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/153" title="142 三分钟·拍摄花絮">
+                                    <span class="tool_chapters_list_number">[142]</span>
+                                    <span class="tool_chapters_list_title">142 三分钟·拍摄花絮</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/154" title="143 不许笑比赛">
+                                    <span class="tool_chapters_list_number">[143]</span>
+                                    <span class="tool_chapters_list_title">143 不许笑比赛</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/155" title="144 两则小见闻">
+                                    <span class="tool_chapters_list_number">[144]</span>
+                                    <span class="tool_chapters_list_title">144 两则小见闻</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/156" title="145 机器人17-游戏直播">
+                                    <span class="tool_chapters_list_number">[145]</span>
+                                    <span class="tool_chapters_list_title">145 机器人17-游戏直播</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/157" title="146 高考祝福">
+                                    <span class="tool_chapters_list_number">[146]</span>
+                                    <span class="tool_chapters_list_title">146 高考祝福</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/158" title="147 机器人18-两人的过去">
+                                    <span class="tool_chapters_list_number">[147]</span>
+                                    <span class="tool_chapters_list_title">147 机器人18-两人的过去</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/159" title="148 剧场版-再见">
+                                    <span class="tool_chapters_list_number">[148]</span>
+                                    <span class="tool_chapters_list_title">148 剧场版-再见</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/160" title="149 机器人19-模拟人格">
+                                    <span class="tool_chapters_list_number">[149]</span>
+                                    <span class="tool_chapters_list_title">149 机器人19-模拟人格</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/161" title="150 单向契约">
+                                    <span class="tool_chapters_list_number">[150]</span>
+                                    <span class="tool_chapters_list_title">150 单向契约</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/162" title="151 单向契约·拍摄花絮">
+                                    <span class="tool_chapters_list_number">[151]</span>
+                                    <span class="tool_chapters_list_title">151 单向契约·拍摄花絮</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/163" title="152 符号">
+                                    <span class="tool_chapters_list_number">[152]</span>
+                                    <span class="tool_chapters_list_title">152 符号</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/164" title="153 机器人20-拒绝">
+                                    <span class="tool_chapters_list_number">[153]</span>
+                                    <span class="tool_chapters_list_title">153 机器人20-拒绝</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/165" title="154 世界树的意志">
+                                    <span class="tool_chapters_list_number">[154]</span>
+                                    <span class="tool_chapters_list_title">154 世界树的意志</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/166" title="155 世界树的意志·拍摄花絮">
+                                    <span class="tool_chapters_list_number">[155]</span>
+                                    <span class="tool_chapters_list_title">155 世界树的意志·拍摄花絮</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/167" title="156 手书-24小时">
+                                    <span class="tool_chapters_list_number">[156]</span>
+                                    <span class="tool_chapters_list_title">156 手书-24小时</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/168" title="157 游戏人生">
+                                    <span class="tool_chapters_list_number">[157]</span>
+                                    <span class="tool_chapters_list_title">157 游戏人生</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/169" title="158 机器人21-自我认同等级">
+                                    <span class="tool_chapters_list_number">[158]</span>
+                                    <span class="tool_chapters_list_title">158 机器人21-自我认同等级</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/170" title="159 机器人22-完美">
+                                    <span class="tool_chapters_list_number">[159]</span>
+                                    <span class="tool_chapters_list_title">159 机器人22-完美</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/171" title="160 魔王01-为了正义">
+                                    <span class="tool_chapters_list_number">[160]</span>
+                                    <span class="tool_chapters_list_title">160 魔王01-为了正义</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/172" title="161 wifi密码">
+                                    <span class="tool_chapters_list_number">[161]</span>
+                                    <span class="tool_chapters_list_title">161 wifi密码</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/173" title="162 虚假信息">
+                                    <span class="tool_chapters_list_number">[162]</span>
+                                    <span class="tool_chapters_list_title">162 虚假信息</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/174" title="163 如何创作故事">
+                                    <span class="tool_chapters_list_number">[163]</span>
+                                    <span class="tool_chapters_list_title">163 如何创作故事</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/175" title="164 魔王02-魔王城">
+                                    <span class="tool_chapters_list_number">[164]</span>
+                                    <span class="tool_chapters_list_title">164 魔王02-魔王城</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/176" title="165 心声">
+                                    <span class="tool_chapters_list_number">[165]</span>
+                                    <span class="tool_chapters_list_title">165 心声</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/177" title="166 心声·拍摄花絮">
+                                    <span class="tool_chapters_list_number">[166]</span>
+                                    <span class="tool_chapters_list_title">166 心声·拍摄花絮</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/178" title="167 魔法少女1-Bisco">
+                                    <span class="tool_chapters_list_number">[167]</span>
+                                    <span class="tool_chapters_list_title">167 魔法少女1-Bisco</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/180" title="168 剧场版-空白（上）">
+                                    <span class="tool_chapters_list_number">[168]</span>
+                                    <span class="tool_chapters_list_title">168 剧场版-空白（上）</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/181" title="169 剧场版-空白（下）">
+                                    <span class="tool_chapters_list_number">[169]</span>
+                                    <span class="tool_chapters_list_title">169 剧场版-空白（下）</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/182" title="170 手书-因为你">
+                                    <span class="tool_chapters_list_number">[170]</span>
+                                    <span class="tool_chapters_list_title">170 手书-因为你</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/183" title="171 石头">
+                                    <span class="tool_chapters_list_number">[171]</span>
+                                    <span class="tool_chapters_list_title">171 石头</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/184" title="172 机器人23-购物">
+                                    <span class="tool_chapters_list_number">[172]</span>
+                                    <span class="tool_chapters_list_title">172 机器人23-购物</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/185" title="173 驭风者">
+                                    <span class="tool_chapters_list_number">[173]</span>
+                                    <span class="tool_chapters_list_title">173 驭风者</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/186" title="174 某小说创作内幕">
+                                    <span class="tool_chapters_list_number">[174]</span>
+                                    <span class="tool_chapters_list_title">174 某小说创作内幕</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/187" title="175 魔王03-万圣节">
+                                    <span class="tool_chapters_list_number">[175]</span>
+                                    <span class="tool_chapters_list_title">175 魔王03-万圣节</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/188" title="176 只如初见">
+                                    <span class="tool_chapters_list_number">[176]</span>
+                                    <span class="tool_chapters_list_title">176 只如初见</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/189" title="177 便利">
+                                    <span class="tool_chapters_list_number">[177]</span>
+                                    <span class="tool_chapters_list_title">177 便利</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/190" title="178 第二次机会">
+                                    <span class="tool_chapters_list_number">[178]</span>
+                                    <span class="tool_chapters_list_title">178 第二次机会</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/191" title="179 机器人24-自我意识">
+                                    <span class="tool_chapters_list_number">[179]</span>
+                                    <span class="tool_chapters_list_title">179 机器人24-自我意识</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/192" title="180 新闻">
+                                    <span class="tool_chapters_list_number">[180]</span>
+                                    <span class="tool_chapters_list_title">180 新闻</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/193" title="181 无尽之夏">
+                                    <span class="tool_chapters_list_number">[181]</span>
+                                    <span class="tool_chapters_list_title">181 无尽之夏</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/194" title="182 无尽之夏·拍摄花絮">
+                                    <span class="tool_chapters_list_number">[182]</span>
+                                    <span class="tool_chapters_list_title">182 无尽之夏·拍摄花絮</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/195" title="183 魔法少女2-武斗派">
+                                    <span class="tool_chapters_list_number">[183]</span>
+                                    <span class="tool_chapters_list_title">183 魔法少女2-武斗派</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/196" title="184 魔王04-圣诞">
+                                    <span class="tool_chapters_list_number">[184]</span>
+                                    <span class="tool_chapters_list_title">184 魔王04-圣诞</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/197" title="185 各取所需（上）">
+                                    <span class="tool_chapters_list_number">[185]</span>
+                                    <span class="tool_chapters_list_title">185 各取所需（上）</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/198" title="186 各取所需（下）">
+                                    <span class="tool_chapters_list_number">[186]</span>
+                                    <span class="tool_chapters_list_title">186 各取所需（下）</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/199" title="187 各取所需·番外">
+                                    <span class="tool_chapters_list_number">[187]</span>
+                                    <span class="tool_chapters_list_title">187 各取所需·番外</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/200" title="188 人生规划">
+                                    <span class="tool_chapters_list_number">[188]</span>
+                                    <span class="tool_chapters_list_title">188 人生规划</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/201" title="贺年插画">
+                                    <span class="tool_chapters_list_number">[189]</span>
+                                    <span class="tool_chapters_list_title">贺年插画</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/202" title="190 手机编年史">
+                                    <span class="tool_chapters_list_number">[190]</span>
+                                    <span class="tool_chapters_list_title">190 手机编年史</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/203" title="191 机器人25-同声传译">
+                                    <span class="tool_chapters_list_number">[191]</span>
+                                    <span class="tool_chapters_list_title">191 机器人25-同声传译</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/204" title="192 情人节特辑">
+                                    <span class="tool_chapters_list_number">[192]</span>
+                                    <span class="tool_chapters_list_title">192 情人节特辑</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/205" title="193 记忆拼图（上）">
+                                    <span class="tool_chapters_list_number">[193]</span>
+                                    <span class="tool_chapters_list_title">193 记忆拼图（上）</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/206" title="194 记忆拼图（下）">
+                                    <span class="tool_chapters_list_number">[194]</span>
+                                    <span class="tool_chapters_list_title">194 记忆拼图（下）</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/207" title="195 厨神">
+                                    <span class="tool_chapters_list_number">[195]</span>
+                                    <span class="tool_chapters_list_title">195 厨神</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/209" title="196 人生艰难">
+                                    <span class="tool_chapters_list_number">[196]</span>
+                                    <span class="tool_chapters_list_title">196 人生艰难</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/210" title="197 花吐症">
+                                    <span class="tool_chapters_list_number">[197]</span>
+                                    <span class="tool_chapters_list_title">197 花吐症</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/211" title="198 魔王05-真实">
+                                    <span class="tool_chapters_list_number">[198]</span>
+                                    <span class="tool_chapters_list_title">198 魔王05-真实</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/212" title="单行本发售！">
+                                    <span class="tool_chapters_list_number">[199]</span>
+                                    <span class="tool_chapters_list_title">单行本发售！</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/213" title="200 孰假孰真">
+                                    <span class="tool_chapters_list_number">[200]</span>
+                                    <span class="tool_chapters_list_title">200 孰假孰真</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/214" title="201 聊天记录">
+                                    <span class="tool_chapters_list_number">[201]</span>
+                                    <span class="tool_chapters_list_title">201 聊天记录</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/215" title="人物生日设定">
+                                    <span class="tool_chapters_list_number">[202]</span>
+                                    <span class="tool_chapters_list_title">人物生日设定</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/216" title="203 机器人26-真人工智能">
+                                    <span class="tool_chapters_list_number">[203]</span>
+                                    <span class="tool_chapters_list_title">203 机器人26-真人工智能</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/217" title="204 机器人26.5-感情">
+                                    <span class="tool_chapters_list_number">[204]</span>
+                                    <span class="tool_chapters_list_title">204 机器人26.5-感情</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/218" title="205 预言">
+                                    <span class="tool_chapters_list_number">[205]</span>
+                                    <span class="tool_chapters_list_title">205 预言</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/219" title="206 机器人篇花絮-母亲节">
+                                    <span class="tool_chapters_list_number">[206]</span>
+                                    <span class="tool_chapters_list_title">206 机器人篇花絮-母亲节</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/220" title="207 魔王06-参谋与侍卫">
+                                    <span class="tool_chapters_list_number">[207]</span>
+                                    <span class="tool_chapters_list_title">207 魔王06-参谋与侍卫</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/221" title="208 登山者">
+                                    <span class="tool_chapters_list_number">[208]</span>
+                                    <span class="tool_chapters_list_title">208 登山者</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/222" title="209 魔王06.5-端午节花絮">
+                                    <span class="tool_chapters_list_number">[209]</span>
+                                    <span class="tool_chapters_list_title">209 魔王06.5-端午节花絮</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/223" title="210 小鬼魂（上）">
+                                    <span class="tool_chapters_list_number">[210]</span>
+                                    <span class="tool_chapters_list_title">210 小鬼魂（上）</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/224" title="211 小鬼魂（下）">
+                                    <span class="tool_chapters_list_number">[211]</span>
+                                    <span class="tool_chapters_list_title">211 小鬼魂（下）</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/225" title="几张不是剧情的插画">
+                                    <span class="tool_chapters_list_number">[212]</span>
+                                    <span class="tool_chapters_list_title">几张不是剧情的插画</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/226" title="213 魔王07-魔王城的夏日">
+                                    <span class="tool_chapters_list_number">[213]</span>
+                                    <span class="tool_chapters_list_title">213 魔王07-魔王城的夏日</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/227" title="214 小寓言">
+                                    <span class="tool_chapters_list_number">[214]</span>
+                                    <span class="tool_chapters_list_title">214 小寓言</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/228" title="215 分级制">
+                                    <span class="tool_chapters_list_number">[215]</span>
+                                    <span class="tool_chapters_list_title">215 分级制</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/229" title="216 纪念物（上）">
+                                    <span class="tool_chapters_list_number">[216]</span>
+                                    <span class="tool_chapters_list_title">216 纪念物（上）</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/230" title="217 纪念物（下）">
+                                    <span class="tool_chapters_list_number">[217]</span>
+                                    <span class="tool_chapters_list_title">217 纪念物（下）</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/231" title="218 纪念物·拍摄花絮">
+                                    <span class="tool_chapters_list_number">[218]</span>
+                                    <span class="tool_chapters_list_title">218 纪念物·拍摄花絮</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/232" title="219 机器人27-普通人之路">
+                                    <span class="tool_chapters_list_number">[219]</span>
+                                    <span class="tool_chapters_list_title">219 机器人27-普通人之路</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/233" title="220 王子与公主">
+                                    <span class="tool_chapters_list_number">[220]</span>
+                                    <span class="tool_chapters_list_title">220 王子与公主</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/234" title="221 黑恶势力的小日常">
+                                    <span class="tool_chapters_list_number">[221]</span>
+                                    <span class="tool_chapters_list_title">221 黑恶势力的小日常</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/235" title="222 如何提高学习积极性">
+                                    <span class="tool_chapters_list_number">[222]</span>
+                                    <span class="tool_chapters_list_title">222 如何提高学习积极性</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/236" title="223 退订短信">
+                                    <span class="tool_chapters_list_number">[223]</span>
+                                    <span class="tool_chapters_list_title">223 退订短信</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/237" title="224 黄金之城">
+                                    <span class="tool_chapters_list_number">[224]</span>
+                                    <span class="tool_chapters_list_title">224 黄金之城</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/238" title="225 七夕小贺图">
+                                    <span class="tool_chapters_list_number">[225]</span>
+                                    <span class="tool_chapters_list_title">225 七夕小贺图</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/239" title="226 黄金之城·番外">
+                                    <span class="tool_chapters_list_number">[226]</span>
+                                    <span class="tool_chapters_list_title">226 黄金之城·番外</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/240" title="几张不是剧情的插画">
+                                    <span class="tool_chapters_list_number">[227]</span>
+                                    <span class="tool_chapters_list_title">几张不是剧情的插画</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/241" title="228 实名制">
+                                    <span class="tool_chapters_list_number">[228]</span>
+                                    <span class="tool_chapters_list_title">228 实名制</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/242" title="229 异己">
+                                    <span class="tool_chapters_list_number">[229]</span>
+                                    <span class="tool_chapters_list_title">229 异己</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/243" title="230 唤醒">
+                                    <span class="tool_chapters_list_number">[230]</span>
+                                    <span class="tool_chapters_list_title">230 唤醒</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/244" title="231 心灵感应">
+                                    <span class="tool_chapters_list_number">[231]</span>
+                                    <span class="tool_chapters_list_title">231 心灵感应</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/245" title="232 羽人">
+                                    <span class="tool_chapters_list_number">[232]</span>
+                                    <span class="tool_chapters_list_title">232 羽人</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/246" title="233 关于希望的对话">
+                                    <span class="tool_chapters_list_number">[233]</span>
+                                    <span class="tool_chapters_list_title">233 关于希望的对话</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/247" title="234 语义识别技术">
+                                    <span class="tool_chapters_list_number">[234]</span>
+                                    <span class="tool_chapters_list_title">234 语义识别技术</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/248" title="235 圣人">
+                                    <span class="tool_chapters_list_number">[235]</span>
+                                    <span class="tool_chapters_list_title">235 圣人</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/249" title="236 机器人28-地下">
+                                    <span class="tool_chapters_list_number">[236]</span>
+                                    <span class="tool_chapters_list_title">236 机器人28-地下</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/250" title="237 机器人28.5-玩偶装">
+                                    <span class="tool_chapters_list_number">[237]</span>
+                                    <span class="tool_chapters_list_title">237 机器人28.5-玩偶装</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/251" title="238 灰羽生贺+永乐生贺">
+                                    <span class="tool_chapters_list_number">[238]</span>
+                                    <span class="tool_chapters_list_title">238 灰羽生贺+永乐生贺</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/252" title="239 真实之梦">
+                                    <span class="tool_chapters_list_number">[239]</span>
+                                    <span class="tool_chapters_list_title">239 真实之梦</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/253" title="240 安装程序">
+                                    <span class="tool_chapters_list_number">[240]</span>
+                                    <span class="tool_chapters_list_title">240 安装程序</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/254" title="241 分辨率小科普">
+                                    <span class="tool_chapters_list_number">[241]</span>
+                                    <span class="tool_chapters_list_title">241 分辨率小科普</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/255" title="242 一个小红点">
+                                    <span class="tool_chapters_list_number">[242]</span>
+                                    <span class="tool_chapters_list_title">242 一个小红点</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/256" title="243 水晶疗愈法">
+                                    <span class="tool_chapters_list_number">[243]</span>
+                                    <span class="tool_chapters_list_title">243 水晶疗愈法</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/257" title="244 魔王08-勇者诞生">
+                                    <span class="tool_chapters_list_number">[244]</span>
+                                    <span class="tool_chapters_list_title">244 魔王08-勇者诞生</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/258" title="245 购物">
+                                    <span class="tool_chapters_list_number">[245]</span>
+                                    <span class="tool_chapters_list_title">245 购物</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/259" title="246 机绿生日">
+                                    <span class="tool_chapters_list_number">[246]</span>
+                                    <span class="tool_chapters_list_title">246 机绿生日</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/260" title="247 记忆规划局（上）">
+                                    <span class="tool_chapters_list_number">[247]</span>
+                                    <span class="tool_chapters_list_title">247 记忆规划局（上）</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/261" title="248 记忆规划局（下）">
+                                    <span class="tool_chapters_list_number">[248]</span>
+                                    <span class="tool_chapters_list_title">248 记忆规划局（下）</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/262" title="圣诞贺图">
+                                    <span class="tool_chapters_list_number">[249]</span>
+                                    <span class="tool_chapters_list_title">圣诞贺图</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/263" title="250 网络生态">
+                                    <span class="tool_chapters_list_number">[250]</span>
+                                    <span class="tool_chapters_list_title">250 网络生态</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/265" title="251 冬与夏">
+                                    <span class="tool_chapters_list_number">[251]</span>
+                                    <span class="tool_chapters_list_title">251 冬与夏</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/266" title="252 星图">
+                                    <span class="tool_chapters_list_number">[252]</span>
+                                    <span class="tool_chapters_list_title">252 星图</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/267" title="253 机器人28.6-小日常">
+                                    <span class="tool_chapters_list_number">[253]</span>
+                                    <span class="tool_chapters_list_title">253 机器人28.6-小日常</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/268" title="254 代价">
+                                    <span class="tool_chapters_list_number">[254]</span>
+                                    <span class="tool_chapters_list_title">254 代价</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/269" title="255 达成共识">
+                                    <span class="tool_chapters_list_number">[255]</span>
+                                    <span class="tool_chapters_list_title">255 达成共识</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/270" title="256 机器人29-边境2.0">
+                                    <span class="tool_chapters_list_number">[256]</span>
+                                    <span class="tool_chapters_list_title">256 机器人29-边境2.0</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/271" title="257 机器人30-十年前的承诺">
+                                    <span class="tool_chapters_list_number">[257]</span>
+                                    <span class="tool_chapters_list_title">257 机器人30-十年前的承诺</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/272" title="258 手书-Myosotis">
+                                    <span class="tool_chapters_list_number">[258]</span>
+                                    <span class="tool_chapters_list_title">258 手书-Myosotis</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/273" title="259 机器人31-情绪识别程序">
+                                    <span class="tool_chapters_list_number">[259]</span>
+                                    <span class="tool_chapters_list_title">259 机器人31-情绪识别程序</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/274" title="260 旧友">
+                                    <span class="tool_chapters_list_number">[260]</span>
+                                    <span class="tool_chapters_list_title">260 旧友</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/275" title="261 魔王09-勇者的能力">
+                                    <span class="tool_chapters_list_number">[261]</span>
+                                    <span class="tool_chapters_list_title">261 魔王09-勇者的能力</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/276" title="262 不会魔法的魔法师（上）">
+                                    <span class="tool_chapters_list_number">[262]</span>
+                                    <span class="tool_chapters_list_title">262 不会魔法的魔法师（上）</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/277" title="263 不会魔法的魔法师（下）">
+                                    <span class="tool_chapters_list_number">[263]</span>
+                                    <span class="tool_chapters_list_title">263 不会魔法的魔法师（下）</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/278" title="264 成功率提示器">
+                                    <span class="tool_chapters_list_number">[264]</span>
+                                    <span class="tool_chapters_list_title">264 成功率提示器</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/279" title="265 火柴人观察报告">
+                                    <span class="tool_chapters_list_number">[265]</span>
+                                    <span class="tool_chapters_list_title">265 火柴人观察报告</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/280" title="266 奇迹国">
+                                    <span class="tool_chapters_list_number">[266]</span>
+                                    <span class="tool_chapters_list_title">266 奇迹国</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/281" title="267 地下城之主">
+                                    <span class="tool_chapters_list_number">[267]</span>
+                                    <span class="tool_chapters_list_title">267 地下城之主</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/282" title="268 黑恶势力02-医者的宣言">
+                                    <span class="tool_chapters_list_number">[268]</span>
+                                    <span class="tool_chapters_list_title">268 黑恶势力02-医者的宣言</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/283" title="269 为你而开的花">
+                                    <span class="tool_chapters_list_number">[269]</span>
+                                    <span class="tool_chapters_list_title">269 为你而开的花</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/284" title="270 高考祝福2018">
+                                    <span class="tool_chapters_list_number">[270]</span>
+                                    <span class="tool_chapters_list_title">270 高考祝福2018</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/285" title="271 机器人32-工作日">
+                                    <span class="tool_chapters_list_number">[271]</span>
+                                    <span class="tool_chapters_list_title">271 机器人32-工作日</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/286" title="272 机器人33-每日任务">
+                                    <span class="tool_chapters_list_number">[272]</span>
+                                    <span class="tool_chapters_list_title">272 机器人33-每日任务</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/287" title="几张杂图">
+                                    <span class="tool_chapters_list_number">[273]</span>
+                                    <span class="tool_chapters_list_title">几张杂图</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/288" title="274 魔王10-旅途之中">
+                                    <span class="tool_chapters_list_number">[274]</span>
+                                    <span class="tool_chapters_list_title">274 魔王10-旅途之中</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/289" title="275 黑名单">
+                                    <span class="tool_chapters_list_number">[275]</span>
+                                    <span class="tool_chapters_list_title">275 黑名单</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/290" title="276 漫展见闻">
+                                    <span class="tool_chapters_list_number">[276]</span>
+                                    <span class="tool_chapters_list_title">276 漫展见闻</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/291" title="277 理性与感性">
+                                    <span class="tool_chapters_list_number">[277]</span>
+                                    <span class="tool_chapters_list_title">277 理性与感性</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/292" title="278 观后感">
+                                    <span class="tool_chapters_list_number">[278]</span>
+                                    <span class="tool_chapters_list_title">278 观后感</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/293" title="279 鱼">
+                                    <span class="tool_chapters_list_number">[279]</span>
+                                    <span class="tool_chapters_list_title">279 鱼</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/294" title="动画贺图和杂图">
+                                    <span class="tool_chapters_list_number">[280]</span>
+                                    <span class="tool_chapters_list_title">动画贺图和杂图</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/295" title="281 法外之地">
+                                    <span class="tool_chapters_list_number">[281]</span>
+                                    <span class="tool_chapters_list_title">281 法外之地</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/296" title="282 背包侠·拍摄花絮">
+                                    <span class="tool_chapters_list_number">[282]</span>
+                                    <span class="tool_chapters_list_title">282 背包侠·拍摄花絮</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/297" title="283 动画吐槽01">
+                                    <span class="tool_chapters_list_number">[283]</span>
+                                    <span class="tool_chapters_list_title">283 动画吐槽01</span>                                </a>
+                            </li>
+                                                        <li >
+                                <a href="/ComicView/index/id/536332/cid/298" title="284 魔王11-世界启动之日">
+                                    <span class="tool_chapters_list_number">[284]</span>
+                                    <span class="tool_chapters_list_title">284 魔王11-世界启动之日</span>                                </a>
+                            </li>
+                                                    </ul>
+
+                    </div>
+                    <div class="scroll-scrollbar" id="catalogueScrollBg">
+                        <div class="scroll-scrollbar-thumb" id="catalogueScrollBlock"></div>
+                    </div>
+                </div>
+            </div>
+            <span class="ft-number">共 284 话</span>
+        </div>
+        <!--章节目录列表弹窗 end-->
+    </div>
+
+    <!-- 吐槽一期 -->
+    <div class="roast-and-barrage" id="roastAndBarrage">
+        <div class="tool_roast">
+            <ul class="tool_roast_list clearfix">
+                <li><a class="rool_roast_a rool_roast_a_short" id="toRoast"><span class="roast_txt">吐槽</span><span class="roast_dm_txt">发弹幕</span></a></li>
+                <li><a id="roastMode" class="rool_roast_a rool_roast_a_long"><span class="no_roast_txt_n">隐藏</span><span class="no_roast_txt_b">显示</span><span class="roast_txt">吐槽</span><span class="roast_dm_txt">弹幕</span></a></li>
+                <li class="roast_change_li"><a id="changeRoast" class="rool_roast_a rool_roast_a_long">换一批</a></li>
+                <li>该图<span class="roast_txt">吐槽</span><span class="roast_dm_txt">弹幕</span>数：<i id="roastNum">--</i></li>
+                <li>
+                    <a class="roast-check-btn pop" id="barrage">
+                        <span class="tool_title tool_title_roast_tan">切换为弹幕模式</span>
+                        <span class="tool_title tool_title_roast_tu">切换为吐槽模式</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="publish-comment-wrap" id="commentWrap">
+            <div class="publish-comment">
+                <div class="publish-textarea">
+                    <input maxlength="30" id="roastContent" />
+                    <span class="publish-textarea-text" id="roastPrompt">输入<span class="roast_txt">吐槽</span><span class="roast_dm_txt">弹幕</span>内容</span>
+                    <span class="publish-textarea-length" id="roastCount">0/30</span>
+                </div>
+                <div class="publish-comment-foot">
+                    <div class="publish-foot-ico" id="roastColorSelector" data-color-select="0">
+                        <a class="publish-font-white active" data-color="0">白</a>
+                        <a class="publish-font-blue" data-color="1">蓝</a>
+                        <a class="publish-font-yellow" data-color="2">黄</a>
+                        <a class="publish-font-red" data-color="3">红</a>
+                        <a class="publish-font-green" data-color="4">绿</a>
+                        <a class="publish-font-pink" data-color="5">粉</a>
+                    </div>
+                    <a class="publish-btn-sure ui-right" id="postRoast">发表<span class="roast_txt">吐槽</span><span class="roast_dm_txt">弹幕</span></a>
+                    <a class="publish-btn-cancel ui-right" id="calcelRoast">取消</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--下方工具栏部分 end-->
+
+<!-- Q娘 start -->
+<div class="qGirl-wrap">
+    <canvas id="qgirlCanvas" class="qGirl-canvas"></canvas>
+    <div class="msg-pop" id="msgPop" style="display: none;">
+        <script type="text/html" id="msgPopMod">
+        <span class="border"></span>
+        <a {{if link}}href="{{link}}"{{/if}} class="msg-pop-style-{{styleType}}" target="_blank" id="girlMsgPop">
+            {{if id}}
+            {{if pic}}
+                {{each pic}}
+                <img src="{{$value.src}}">
+                {{/each}}
+            {{/if}}
+            {{if title}}
+            <h3>{{title}}</h3>
+            {{/if}}
+            {{if content}}
+            <p title="{{content}}">{{content}}</p>
+            {{/if}}
+            {{else}}
+            {{if pic}}
+                <div class="clearfix">
+                    {{each pic}}
+                    <div class="msg-img-wr msg-img-wr-{{if pic.length >= 3}}3{{else if pic.length == 2}}2{{/if}}">
+                        <img src="{{$value.src}}">
+                    </div>
+                    {{/each}}
+                </div>
+            {{/if}}
+            {{if title}}
+            <h3>{{title}}</h3>
+            {{/if}}
+            {{if content}}
+            <p title="{{content}}">{{content}}</p>
+            {{/if}}
+            {{/if}}
+        </a>
+        <a class="close-btn" id="msgPopClose" data-pop="{{isPop}}"></a>
+        <i class="decoration-1"></i>
+        <i class="decoration-2"></i>
+        <i class="decoration-3"></i>
+        </script>
+    </div>
+    <div id="qgirlContain" class="qGirl-contain"></div>
+    <div id="bombContain" class="bomb-contain"></div>
+    <span class="msg-tip" style="display: none;" id="msgTip"></span>
+    <a class="hide-btn" id="hideBtn"></a>
+</div>
+<!-- Q娘 end -->
+
+<!--宝珠 start-->
+    <div class="magicBall-wrap" id="magicBall_wrap">
+        <div class="magicBall-loadImg">
+            <img src="//ac.gtimg.com/media/images/ball1.png">
+            <img src="//ac.gtimg.com/media/images/ball2.png">
+            <img src="//ac.gtimg.com/media/images/ball3.png">
+            <img src="//ac.gtimg.com/media/images/ball4.png">
+            <img src="//ac.gtimg.com/media/images/ball5.png">
+        </div>
+        <a class="magicBall-cancel" id="magicBall_cancel">X</a>
+        <a class="magicBall-ani" id="magicBall" target="_blank" href="/event/collectMagicBall2016/index.shtml">
+
+        </a>
+        <a class="magicBall-login" id="magicBall_login" target="_blank" href="/event/collectMagicBall2016/index.shtml">
+
+        </a>
+        <span class="magicBall-add" id="magicBall_add">+1</span>
+        <span class="magicBall-text" id="magicBall_text">收集成功</span>
+    </div>
+<!--宝珠 end-->
+
+
+<!-- 对页引导 -->
+<div class="page-lead-list">
+    <a class="page-lead-btn" id="pageLeadBtn">知道了，退下吧！！</a>
+</div>
+<div class="page-lead-bg"></div>
+
+<!-- 切页弹层 -->
+<div class="mask" id="chapterChangePrompt">
+</div>
+<script type="text/html" id="chapterChangePromptMod">
+<div class="mask_bg"></div>
+<div class="mask_iframe_container">
+    <table>
+        <tbody>
+        <tr>
+            <td>
+                <div class="dialog-normal dialog-page">
+                    <div class="dialog-title dialog-tit-small">即将进入：{{turnTitle}}</div>
+                    <a onclick="closePrompt()" id="dialogClose" class="dialog-close">X</a>
+                    <div class="dialog-page-con">
+                        <p class="ft-xone">^_^  主人，本章节已结束，确认{{turnState}}一话？</p>
+                        <div class="dialog-btn-wrap clearfix">
+                            <a class="ui-btn-white btn-page-this" title="留在本页" onclick="closePrompt()">留在本页</a>
+                            <a onclick="localTo({{turnTo}})" class="ui-btn-org btn-page-next">确定，{{turnState}}一话</a>
+                        </div>
+                        <p class="dialog-p-check">
+                            <a href="//ac.qq.com/Comic/comicInfo/id/{{id}}" title="回到目录" class="page-a-back">回到目录</a>
+                            <input type="checkbox" name="checkbox" id="promptCheck">
+                            <label for="promptCheck">不再提示</label>
+                        </p>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</script>
+<!-- 切页弹层 end-->
+<!--遮罩层部分 begin-->
+<div class="mask" id="iframeMask">
+    <div class="mask_bg"></div>
+    <div class="mask_iframe_container">
+        <table>
+            <tbody>
+            <tr>
+                <td>
+                    <iframe style="display:none" id="iframeAll" name="iframeAll" frameborder="no" scrolling="no" src="javascript:void(0);"></iframe>
+                    <!--普通弹窗结构 begin-->
+                    <div class="dialog-normal hidden" id="dialog"></div>
+                    <script id="dialogMod" type="text/html">
+                        <div class="dialog-title">{{title}}</div>
+                        <div class="dialog-content">
+                            {{if emotion}}
+                            <span class="dialog-text-emoticon">{{emotion}}</span><br/>
+                            {{/if}}
+                            {{if text}}
+                            <span class="dialog-text-normal">{{text}}</span><br/>
+                            {{/if}}
+                        </div>
+                        {{if button}}
+                        <div class="dialog-button-list">
+                            {{each button}}
+                                <a class="dialog-button"{{if $value.id}} id="{{$value.id}}"{{/if}}{{if $value.fn}} onclick="{{$value.fn}}()"{{/if}}>{{$value.name}}</a>
+                            {{/each}}
+                        </div>
+                        {{/if}}
+                        {{if noReview}}
+                        <div class="dialog-notmore">
+                            <input type="checkbox"/><span>不再提示</span>
+                        </div>
+                        {{/if}}
+                        <a class="dialog-close"{{if closebtn.id}} id="{{closebtn.id}}"{{/if}}{{if closebtn.fn}} onclick="{{closebtn.fn}}()"{{/if}}>{{if closebtn.name}}{{closebtn.name}}{{/if}}</a>
+                    </script>
+                    <!--普通弹窗结构 end-->
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!--遮罩层部分 end-->
+
+<!--提示部分 begin-->
+<div class="prompt-text hidden" id="promptText">
+    <div class="prompt-cover"></div>
+    <span id="promptMain">按 F11 进入全屏模式</span>
+</div>
+<!--提示部分 end-->
+
+<!--打赏 月票 begin-->
+<iframe src="javascript:void(0);" class="hidden" frameborder="no" scrolling="no" allowTransparency="true" id="rewardFrame" style="position:fixed;width:100%;height:100%;z-index:999;top:0;left:0;"></iframe>
+<!--打赏 月票 end-->
+
+<!-- aisee反馈 begin -->
+<div id='aiseeWr' class="aisee-wr" style="display: none;">
+    <div class='aisee-header'>
+        <div class="aisee-nav" id="aiseeNav">
+            <span class="aisee-nav-item active" id="aiseeNavSubmit">提交反馈</span>
+            <span class="aisee-nav-item" id="aiseeNavFeedback">反馈历史</span>
+        </div>
+        <div class='aisee-close' id="aiseeCloseBtn">&Chi;</div>
+    </div>
+    <iframe id="aiseeFrame" class='aiseeFrame' src="" frameborder="0"></iframe>
+</div>
+<!-- aisee反馈 end -->
+
+<i class="small-heart" id="smallHeart"></i>
+
+<div id="plusOneWrap" class="roast-plus-wrap"></div>
+
+<!-- 吐槽右侧 -->
+
+<div class="roast-bar-wrap" id="roastBarWrap">
+    <!-- <span class="roast-border-top"></span> -->
+    <!-- <div class="roast-user clearfix" id="roastUserWrap">
+        <img class="roast-avatar" id="roastAvatar" src="//ac.gtimg.com/media/images/blank.gif" alt="用户头像">
+        <div class="roast-user-info" style="display:none;">
+            <h4 id="roastNickname">腾讯动漫用户</h4>
+            <p>本作品<span class="roast_right_txt">吐槽</span><span class="roast_right_dm_txt">弹幕</span>：<span class="roast-info-num">999+</span></p>
+            <p>获赞：<span class="roast-info-num">999+</span></p>
+        </div>
+        <div class="roast-user-unsigned">
+            <a href="javascript:void(0);" id="roastLogIn">登录</a>
+            <p>登录后发射点什么吧...</p>
+        </div>
+    </div> -->
+        <div class="roast-bar">
+        <div class="roast-bar-top">
+            <!-- <h2 class="tit"><span class="tool_title roast-drag-tip">拖拽发光区域 吐槽换一批</span></h2> -->
+            <h2 class="tit">
+                <span class="roast_right_txt">吐槽</span>
+                <span class="roast_right_dm_txt">弹幕</span>
+            </h2>
+            <div class="roast-content" id="roastBarContent"></div>
+            <div class="roast-bar-bottom">
+                <a href="javascript:void(0);" class="roast-btn" id="roastBtnText">我要来一发</a>
+                <div class="roast-main-btn">
+                    <!-- <a class="roast-btn-text" id="roastBtnText">
+                        <span class="tool_title">
+                            <span class="roast_txt">发吐槽</span>
+                            <span class="roast_dm_txt">发弹幕</span>
+                            <span class="set-trash">放弃吐槽</span>
+                        </span>
+                    </a> -->
+                    <a class="roast-btn-pop roast-btn-hide" id="roastHide">
+                        <span class="pop_icon_dm"></span>
+                        <span class="pop_icon_dm_close"></span>
+                        <!-- <span class="pop_icon_tan"></span> -->
+                        <span class="tool_title">隐藏<span class="roast_dm_txt">弹幕</span><span class="roast_txt">吐槽</span></span>
+                    </a>
+                    <a class="roast-btn-pop roast-btn-pop-right mod-fl-right" id="turnToRoastDm">
+                        <span class="pop_icon_tc"></span>
+                        <span class="pop_icon_tc_close"></span>
+                        <!-- <span class="pop_icon_tan"></span> -->
+                        <span class="tool_title">切换为<span class="roast_txt">弹幕模式</span><span class="roast_dm_txt">吐槽模式</span></span>
+                    </a>
+                    <span class="roast-hide-lead" style="display:none;">不想看<span class="roast_dm_txt">弹幕</span><span class="roast_txt">吐槽</span>吗？点<span class="roast-hide-ico"></span><span class="roast-hide-txt">隐藏</span>可以屏蔽哦<a id="roastHideLead"></a></span>
+                    <!-- <a class="roast-btn-none"><span class="tool_title">隐藏<span class="roast_txt">吐槽</span><span class="roast_dm_txt">弹幕</span></span></a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="roast-bar-save" id="roastBarShrink">
+        <div class="roast-bar-save-top">
+            <a class="ico-bar-write" id="icoBarWrite">
+                <span class="tool_title">
+                        <span class="roast_txt">发吐槽</span>
+                        <span class="roast_dm_txt">发弹幕</span>
+                </span>
+            </a>
+            <a class="roast-btn-pop ico-bar-show" id="icoBarShow">
+                <!-- <span class="pop_icon_tan"></span> -->
+                <span class="tool_title"><span class="roast_hide_txt">隐藏</span><span class="roast_show_txt">显示</span><span class="roast_dm_txt">弹幕</span><span class="roast_txt">吐槽</span></span>
+            </a>
+            <a class="roast-btn-pop mod-fl-right roast-btn-mode ico-bar-mode" id="icoBarMode">
+                <!-- <span class="pop_icon_tc"></span>
+                <span class="pop_icon_tc_close"></span> -->
+                <!-- <span class="pop_icon_tan"></span> -->
+                <span class="tool_title">切换为<span class="roast_txt">弹幕模式</span><span class="roast_dm_txt">吐槽模式</span></span>
+            </a>
+            <a class="ico-bar-change" id="icoBarChange">换一批</a>
+        </div>
+        <span class="roast-hide-lead" style="display:none;">不想看<span class="roast_dm_txt">弹幕</span><span class="roast_txt">吐槽</span>吗？点<span class="roast-hide-ico"></span>可以屏蔽哦<a id="roastHideLeadShrink"></a></span>
+        <!-- <a class="ico-bar-open" id="icoBarOpen"><i></i>展开
+                <span class="tool_title">
+                        <span class="roast_txt">显示吐槽</span>
+                        <span class="roast_dm_txt">显示弹幕</span>
+                </span>
+        </a> -->
+    </div>
+    <!-- <a class="roast-bar-hide" href="javascript:void(0);" id="roastSmallBar">
+        <i></i>收起
+    </a> -->
+</div>
+<div class="roast-drag-tip" id="roastDragTip">拖拽发光区域 吐槽换一批</div>
+<script id="roastInfoMod" type="text/html">
+    {{if total === 0}}
+        <div class="roast-blank">
+            弹幕空空哒，发射点什么吧
+        </div>
+    {{else if total <= 17}}
+        <div class="roast-info roast-info-no-move" style="height:{{total * 32}}px" id="roast_list_wrap">
+        {{each data}}
+            <p  {{if !$value.good || $value.good == 0}}class="roast-info-no-hot {{if $index + 1 == total }} roast-p-end {{/if}}"  {{else}} {{if $index + 1 == total }} class="roast-p-end" {{/if}} {{hot++}} {{/if}}>
+				<span class="roast-info-txt">{{$index + 1 + ' ' + $value.content}}</span>
+				<span class="roast-info-hot">{{if $value.good >= 10000}}{{($value.good - $value.good % 10000) / 10000}}万{{else}}{{$value.good}}{{/if}}</span>
+				<span class="tool_title">{{ $value.content}}</span>
+			</p>
+        {{/each}}
+        </div>
+    {{else}}
+        <div class="roast-info" data-scroll="roast-bar">
+        <div class="roast-info-content" id="roast_list_wrap">
+        {{each data}}
+            <p  {{if !$value.good || $value.good == 0}}class="roast-info-no-hot {{if ($index + 1)%17 == 0}} roast-p-end {{/if}}"  {{else}} {{if ($index + 1)%17 == 0}} class="roast-p-end" {{/if}} {{hot++ }} {{/if}}>
+				<span class="roast-info-txt">{{$index + 1 + ' ' + $value.content}}</span>
+				<span class="roast-info-hot">{{if $value.good >= 10000}}{{($value.good - $value.good % 10000) / 10000}}万{{else}}{{$value.good}}{{/if}}</span>
+				<span class="tool_title">{{ $value.content}}</span>
+			</p>
+        {{/each}}
+        </div>
+
+        </div>
+    {{/if}}
+    <div class="roast-bar-coin"></div>
+    <p class="roast-bar-p-size">
+    该图总<span class="roast_txt">吐槽：{{total}}</span><span class="roast_dm_txt">弹幕：{{total}}</span>热门：{{hot}}
+    </p>
+    <span class="roast-mouse-bg"></span>
+</script>
+<div id="popUpMsg" style="display:none;" class="pop-up-msg">
+    <div class="pop-overlay"></div>
+    <div class="pop-wr">
+        <div class="pop-content-wr">
+            <sub class="pop-close" id="popUpClose"></sub>
+            <div class="pop-content" id="popUpContent"></div>
+        </div>
+    </div>
+</div>
+<!--[if lt IE 8]>
+<script src="//ac.gtimg.com/media/js/json2.js"></script>
+<![endif]-->
+<script>
+    var DATA        = 'qeyJjb21pYyI6eyJpZCI6NTM2MzMyLCJ0aXRsZSI6Ilx1NWMwZlx1N2VmZlx1NTQ4Y1x1NWMwZlx1ODRkZCIsImNvbGxlY3QiOiIzNjM0NTAiLCJpc0phcGFuQ29taWMiOmZhbHNlLCJpc0xpZ2h0Tm92ZWwiOmZhbHNlLCJpc0xpZ2h0Q29taWMiOnRydWUsImlzRmluaXNoIjpmYWxzZSwiaXNSb2FzdGFibGUiOnRydWUsImVJZCI6IktsQlBTMFJGVTFkWEF3QWZBUVlBQkFzTEhFRXkifSwiY2hhcHRlciI6eyJjaWQiOjEsImNUaXRsZSI6IjAxIFx1NGViYVx1NzI2OVx1OGJiZVx1NWI5YSIsImNTZXEiOiIxIiwidmlwU3RhdHVzIjoxLCJwcmV2Q2lkIjowLCJuZXh0Q2lkIjoxNywiYmxhbmtGaXJzdCI6MSwiY2FuUmVhZCI6dHJ1ZX0sInBpY3R1cmUiOlt7InBpZCI6IjUyNTMiLCJ3aWR0aCI6NTQzLCJoZWlnaHQiOjE2NiwidXJsIjoiaHR0cHM6XC9cL21hbmh1YS5xcGljLmNuXC9tYW5odWFfZGV0YWlsXC8wXC8wMl8xNF8xOV84NDE5YWYyNTQ0ZTQ5MDJhNmRlZjVlMjc4NjYwYWM5NC5qcGdcLzAifSx7InBpZCI6IjEwNzIiLCJ3aWR0aCI6NjgwLCJoZWlnaHQiOjExNDYsInVybCI6Imh0dHBzOlwvXC9tYW5odWEucXBpYy5jblwvbWFuaHVhX2RldGFpbFwvMFwvMTdfMDZfNDNfODJhMTdkYTk2Nzg2NmQwODA5NzExOTllMGUwNzJkNzVfMTA3Mi5qcGdcLzAifSx7InBpZCI6IjMzMjciLCJ3aWR0aCI6MTAwMCwiaGVpZ2h0IjoxMDg5LCJ1cmwiOiJodHRwczpcL1wvbWFuaHVhLnFwaWMuY25cL21hbmh1YV9kZXRhaWxcLzBcLzE3XzA2XzQzX2NmODkyZjQ0OGI5N2I1YmMzZmM3MDAwZTQ4ZWI2M2MwXzMzMjcuanBnXC8wIn0seyJwaWQiOiIzOTcxIiwid2lkdGgiOjEwMDAsImhlaWdodCI6MTU4NCwidXJsIjoiaHR0cHM6XC9cL21hbmh1YS5xcGljLmNuXC9tYW5odWFfZGV0YWlsXC8wXC8xN18wNl80M19mNjdmMDc2MjM1Yjc0NTZkNzUzZWZiN2NkNzBiYzNlNF8zOTcxLmpwZ1wvMCJ9LHsicGlkIjoiNzk1OCIsIndpZHRoIjoxMDAwLCJoZWlnaHQiOjE1MTAsInVybCI6Imh0dHBzOlwvXC9tYW5odWEucXBpYy5jblwvbWFuaHVhX2RldGFpbFwvMFwvMTdfMDZfNDNfNzU5Yzk0ZDcxN2IwODdlYTEwODFlYjBhMDc1N2JlMjJfNzk1OC5qcGdcLzAifV0sImFkcyI6eyJ0b3AiOnsiaWQiOiI1MzYzMzIiLCJ0aXRsZSI6Ilx1NWMwZlx1N2VmZlx1NTQ4Y1x1NWMwZlx1ODRkZFx1NTM1NVx1ODg0Y1x1NjcyY1x1OTg4NFx1NTUyZVx1NWYwMFx1NTQyZiIsInVybCI6Imh0dHA6XC9cL2FjLnFxLmNvbVwvZXZlbnRcL29mZnByaW50XC81MzYzMzIuaHRtbCIsInBpYyI6Imh0dHBzOlwvXC9tYW5odWEucXBpYy5jblwvbWFuaHVhX2RldGFpbFwvMFwvMzBfMTVfNTZfYTg4Mjg2MmRkYzkwZjAwYzA3ODVjNzE2YjM2YTRhMDAuanBnXC8wIiwid2lkdGgiOiI2NTAiLCJoZWlnaHQiOiIxMTAifSwibGVmdCI6W10sImJvdHRvbSI6eyJ0aXRsZSI6Ilx1NmIyMlx1OGZjZVx1Njc2NVx1NTIzMFx1NTczMFx1NzQwMyIsInBpYyI6Imh0dHBzOlwvXC9tYW5odWEucXBpYy5jblwvb3BlcmF0aW9uXC8wXC8xNF8yMV8wNl9jMWEzZTVlNTI0M2NjMjhkMDA3NjU0MTU1ZGQ3OGVmMV8xNTM2OTMwMzg4NTY2LmpwZ1wvMCIsInVybCI6Imh0dHA6XC9cL2FjLnFxLmNvbVwvQ29taWNcL2NvbWljSW5mb1wvaWRcLzYzNjM4MiIsIndpZHRoIjoiNjUwIiwiaGVpZ2h0IjoiMTEwIn19LCJhcnRpc3QiOnsiYXZhdGFyIjoiaHR0cDpcL1wvdGhpcmRxcS5xbG9nby5jblwvZz9iPXNkayZrPXZ3dGZyZlhvUXhVdFJXRUVVTzk2amcmcz02NDAmdD0xNDkzODE0MDEzIiwibmljayI6Ilx1N2IxYlx1NWI1MCIsInVpbkNyeXB0IjoiYmxkRmMyNHJSWEV6YjFsM2RHRTFWMVJLU1c0MGR6MDkifX0=',
+        PRELOAD_NUM = 2,
+        NOTICE_TIME = 15,
+        ROAST_SIZE  = 300,
+        ROAST_PRE   = 5,
+        ROAST_VIEW  = 11,
+        DANMU_TIME  = 10000;
+</script>
+<script src="//ac.gtimg.com/media/js/ac.page.chapter.view_v2.3.6.js?v=20170622"></script>
+<script src="//ac.gtimg.com/media/js/tx.func.js"></script>
+<script src="//ac.gtimg.com/media/js/qrcode.js"></script>
+</body>
+</html>
